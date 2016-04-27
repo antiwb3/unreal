@@ -48,3 +48,7 @@ Temporary Items
 /TwinStickShooter/Content/StarterContent
 /TwinStickShooter/*.sdf
 /TwinStickShooter/Intermediate/Build
+/TwinStickShooter/Binaries/Win64/*.pdb
+/TwinStickShooter/Saved/Logs
+*.log
+*.log
