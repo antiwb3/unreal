@@ -1,16 +1,16 @@
-﻿Log file open, 04/27/16 10:54:21
+﻿Log file open, 04/28/16 01:27:15
 LogInit:Display: Running engine for game: TwinStickShooter
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1817760230) SRandInit(1817760232).
+LogInit:Display: RandInit(-1656349526) SRandInit(-1656349523).
 LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
-LogStats: Stats thread started at 0.058574
+LogStats: Stats thread started at 0.073867
 LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
 LogInit: API Version: 2927265
 LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.11
-LogInit: Command line:  
+LogInit: Command line: 
 LogInit: Base directory: D:/Program Files/Epic Games/4.11/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Using libcurl 7.41.0
@@ -29,109 +29,1327 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.04.27-02.54.21:705][  0]LogInit: Selected Device Profile: [Windows]
-[2016.04.27-02.54.21:705][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.04.27-02.54.21:713][  0]LogInit: Computer: WANGBIN4
-[2016.04.27-02.54.21:713][  0]LogInit: User: wangbin4
-[2016.04.27-02.54.21:713][  0]LogInit: CPU Page size=65536, Cores=2
-[2016.04.27-02.54.21:713][  0]LogInit: High frequency timer resolution =3.215354 MHz
-[2016.04.27-02.54.21:713][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2016.04.27-02.54.21:713][  0]LogMemory: Platform Memory Stats for Windows
-[2016.04.27-02.54.21:713][  0]LogMemory: Process Physical Memory: 312.76 MB used, 312.76 MB peak
-[2016.04.27-02.54.21:713][  0]LogMemory: Process Virtual Memory: 315.65 MB used, 315.65 MB peak
-[2016.04.27-02.54.21:713][  0]LogMemory: Physical Memory: 7648.64 MB used, 16341.05 MB total
-[2016.04.27-02.54.21:713][  0]LogMemory: Virtual Memory: 647.38 MB used, 134217728.00 MB total
-[2016.04.27-02.54.22:304][  0]LogD3D11RHI: D3D11 adapters:
-[2016.04.27-02.54.22:331][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 630' (Feature Level 11_0)
-[2016.04.27-02.54.22:331][  0]LogD3D11RHI:       462MB of dedicated video memory, 0MB of dedicated system memory, and 3583MB of shared system memory, 2 output[s]
-[2016.04.27-02.54.22:334][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.04.27-02.54.22:334][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8170MB of shared system memory, 0 output[s]
-[2016.04.27-02.54.22:334][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.04.27-02.54.22:368][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.04.27-02.54.22:368][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 630
-[2016.04.27-02.54.22:368][  0]LogD3D11RHI:   Driver Version: 10.18.13.5382 (internal 10.18.13.5382)
-[2016.04.27-02.54.22:368][  0]LogD3D11RHI:      Driver Date: 8-7-2015
-[2016.04.27-02.54.22:368][  0]LogRHI: Texture pool is 323 MB (70% of 462 MB)
-[2016.04.27-02.54.22:384][  0]LogD3D11RHI: Async texture creation enabled
-[2016.04.27-02.54.22:402][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../../GitHub/Unreal/TwinStickShooter/Intermediate/Shaders/WorkingDirectory/248496/).
-[2016.04.27-02.54.22:402][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/wangbin4/AppData/Local/Temp/UnrealShaderWorkingDir/28E0DC3D49C743566800E2990136F128/'.
-[2016.04.27-02.54.22:402][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.04.27-02.54.23:719][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.04.27-02.54.23:723][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.04.27-02.54.23:729][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.04.27-02.54.23:734][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.04.27-02.54.23:740][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.04.27-02.54.23:743][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.04.27-02.54.23:748][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.04.27-02.54.23:751][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.04.27-02.54.23:755][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.04.27-02.54.23:758][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.04.27-02.54.23:763][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.04.27-02.54.23:770][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.04.27-02.54.23:770][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.04.27-02.54.23:771][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.04.27-02.54.23:790][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.04.27-02.54.23:793][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.04.27-02.54.23:797][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.04.27-02.54.23:800][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.04.27-02.54.23:804][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.04.27-02.54.23:804][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.04.27-02.54.23:905][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.04.27-02.54.23:966][  0]LogDerivedDataCache: Loaded boot cache 0.06s 46MB C:/Users/wangbin4/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.04.27-02.54.23:966][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/wangbin4/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
-[2016.04.27-02.54.23:966][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/Unreal/TwinStickShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.04.27-02.54.23:966][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.04.27-02.54.23:966][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GitHub/Unreal/TwinStickShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.04.27-02.54.23:966][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.04.27-02.54.23:983][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.04.27-02.54.23:996][  0]LogDerivedDataCache: Using Local data cache path C:/Users/wangbin4/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.04.27-02.54.24:224][  0]LogInit: Selected Device Profile: [Windows]
-[2016.04.27-02.54.24:224][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.04.27-02.54.24:270][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.04.27-02.54.24:428][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.04.27-02.54.24:428][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.04.27-02.54.24:428][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.04.27-02.54.24:721][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
-[2016.04.27-02.54.24:721][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
-[2016.04.27-02.54.24:721][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.04.27-02.54.24:729][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.04.27-02.54.24:828][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.04.27-02.54.24:828][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.04.27-02.54.24:986][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.04.27-02.54.24:986][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.04.27-02.54.24:986][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.04.27-02.54.24:986][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.04.27-02.54.24:986][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.04.27-02.54.24:986][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.04.27-02.54.25:774][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.04.27-02.54.25:775][  0]FUdpSocketBuilder: Failed to bind UdpMessageMulticastSocket to 0.0.0.0:6666
-[2016.04.27-02.54.25:775][  0]FUdpSocketBuilder: Failed to configure multicast for UdpMessageMulticastSocket (loopback: 1, ttl: 1)
-[2016.04.27-02.54.25:775][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
-[2016.04.27-02.54.25:775][  0]LogUdpMessaging:Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
-[2016.04.27-02.54.25:895][  0]LogAssetRegistry: FAssetRegistry took 0.0225 seconds to start up
-[2016.04.27-02.54.26:111][  0]SourceControl: Info Source control is disabled
-[2016.04.27-02.54.26:124][  0]SourceControl: Info Source control is disabled
-[2016.04.27-02.54.26:139][  0]SourceControl: Info Source control is disabled
-[2016.04.27-02.54.26:154][  0]SourceControl: Info Source control is disabled
-[2016.04.27-02.54.26:369][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.04.27-02.54.26:459][  0]LogEngine: Initializing Engine...
-[2016.04.27-02.54.26:632][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.04.27-02.54.26:637][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.04.27-02.54.26:652][  0]LogInit: FAudioDevice initialized.
-[2016.04.27-02.54.26:678][  0]LogDerivedDataCache: Saved boot cache 0.03s 46MB C:/Users/wangbin4/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.04.27-02.54.26:685][  0]LogInit: Texture streaming: Enabled
-[2016.04.27-02.54.26:735][  0]LogInit: Transaction tracking system initialized
-[2016.04.27-02.54.26:760][  0]BlueprintLog: New page: Editor Load
-[2016.04.27-02.54.26:846][  0]LocalizationService: Info Localization service is disabled
-[2016.04.27-02.54.26:947][  0]LogConsoleResponse:Display: 
-[2016.04.27-02.54.27:084][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.04.27-02.54.27:084][  0]LogCook:Display: Mobile HDR setting 1
-[2016.04.27-02.54.27:084][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.04.27-02.54.27:164][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Unreal/TwinStickShooter/Content/' took 0.02s
-[2016.04.27-02.54.27:164][  0]SourceControl: Info Source control is disabled
-[2016.04.27-02.54.27:164][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/Unreal/TwinStickShooter/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.04.27-02.54.27:165][  0]LightingResults: New page: Lighting Build
-[2016.04.27-02.54.27:167][  0]MapCheck: New page: Map Check
-[2016.04.27-02.54.27:167][  0]LightingResults: New page: Lighting Build
-[2016.04.27-02.54.27:852][  0]LogAIModule: Creating AISystem for world NewMap
-[2016.04.27
+[2016.04.27-17.27.15:465][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.27-17.27.15:465][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.27-17.27.15:478][  0]LogInit: Computer: WANGBIN4
+[2016.04.27-17.27.15:478][  0]LogInit: User: wangbin4
+[2016.04.27-17.27.15:478][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.04.27-17.27.15:478][  0]LogInit: High frequency timer resolution =3.215354 MHz
+[2016.04.27-17.27.15:478][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.04.27-17.27.15:478][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.27-17.27.15:478][  0]LogMemory: Process Physical Memory: 312.71 MB used, 312.71 MB peak
+[2016.04.27-17.27.15:478][  0]LogMemory: Process Virtual Memory: 314.64 MB used, 314.64 MB peak
+[2016.04.27-17.27.15:478][  0]LogMemory: Physical Memory: 7773.34 MB used, 16341.05 MB total
+[2016.04.27-17.27.15:478][  0]LogMemory: Virtual Memory: 646.44 MB used, 134217728.00 MB total
+[2016.04.27-17.27.16:308][  0]LogD3D11RHI: D3D11 adapters:
+[2016.04.27-17.27.16:343][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 630' (Feature Level 11_0)
+[2016.04.27-17.27.16:343][  0]LogD3D11RHI:       462MB of dedicated video memory, 0MB of dedicated system memory, and 3583MB of shared system memory, 2 output[s]
+[2016.04.27-17.27.16:346][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.04.27-17.27.16:346][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8170MB of shared system memory, 0 output[s]
+[2016.04.27-17.27.16:346][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.04.27-17.27.16:396][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.04.27-17.27.16:396][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 630
+[2016.04.27-17.27.16:396][  0]LogD3D11RHI:   Driver Version: 10.18.13.5382 (internal 10.18.13.5382)
+[2016.04.27-17.27.16:396][  0]LogD3D11RHI:      Driver Date: 8-7-2015
+[2016.04.27-17.27.16:396][  0]LogRHI: Texture pool is 323 MB (70% of 462 MB)
+[2016.04.27-17.27.16:413][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.27-17.27.16:434][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../../GitHub/Unreal/TwinStickShooter/Intermediate/Shaders/WorkingDirectory/284556/).
+[2016.04.27-17.27.16:434][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/wangbin4/AppData/Local/Temp/UnrealShaderWorkingDir/FA3631514A2BAB487CF17CAB67DD4AB1/'.
+[2016.04.27-17.27.16:434][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.27-17.27.18:710][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.27-17.27.18:716][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.27-17.27.18:725][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.27-17.27.18:731][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.27-17.27.18:742][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.27-17.27.18:748][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.27-17.27.18:755][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.27-17.27.18:760][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.27-17.27.18:765][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.27-17.27.18:773][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.27-17.27.18:776][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.27-17.27.18:798][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.27-17.27.18:798][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.27-17.27.18:806][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.27-17.27.18:838][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.27-17.27.18:843][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.04.27-17.27.18:849][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.27-17.27.18:859][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.27-17.27.18:867][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.27-17.27.18:867][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.27-17.27.19:010][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.27-17.27.19:113][  0]LogDerivedDataCache: Loaded boot cache 0.10s 46MB C:/Users/wangbin4/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.27-17.27.19:113][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/wangbin4/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.04.27-17.27.19:113][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/Unreal/TwinStickShooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.27-17.27.19:113][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.27-17.27.19:113][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GitHub/Unreal/TwinStickShooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.27-17.27.19:113][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.27-17.27.19:148][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.27-17.27.19:161][  0]LogDerivedDataCache: Using Local data cache path C:/Users/wangbin4/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.27-17.27.19:497][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.27-17.27.19:498][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.04.27-17.27.19:573][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.04.27-17.27.19:810][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.27-17.27.19:810][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.27-17.27.19:810][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.04.27-17.27.20:224][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.04.27-17.27.20:224][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.04.27-17.27.20:224][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.04.27-17.27.20:232][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.27-17.27.20:363][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.27-17.27.20:363][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.27-17.27.20:574][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.27-17.27.20:574][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.27-17.27.20:574][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.27-17.27.20:574][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.27-17.27.20:574][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.27-17.27.20:574][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.27-17.27.21:659][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.27-17.27.21:661][  0]FUdpSocketBuilder: Failed to bind UdpMessageMulticastSocket to 0.0.0.0:6666
+[2016.04.27-17.27.21:661][  0]FUdpSocketBuilder: Failed to configure multicast for UdpMessageMulticastSocket (loopback: 1, ttl: 1)
+[2016.04.27-17.27.21:661][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2016.04.27-17.27.21:661][  0]LogUdpMessaging:Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2016.04.27-17.27.21:794][  0]LogAssetRegistry: FAssetRegistry took 0.0225 seconds to start up
+[2016.04.27-17.27.22:089][  0]SourceControl: Info Source control is disabled
+[2016.04.27-17.27.22:108][  0]SourceControl: Info Source control is disabled
+[2016.04.27-17.27.22:127][  0]SourceControl: Info Source control is disabled
+[2016.04.27-17.27.22:146][  0]SourceControl: Info Source control is disabled
+[2016.04.27-17.27.22:433][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.04.27-17.27.22:557][  0]LogEngine: Initializing Engine...
+[2016.04.27-17.27.22:786][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.27-17.27.22:793][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.27-17.27.22:811][  0]LogInit: FAudioDevice initialized.
+[2016.04.27-17.27.22:848][  0]LogDerivedDataCache: Saved boot cache 0.04s 46MB C:/Users/wangbin4/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.27-17.27.22:861][  0]LogInit: Texture streaming: Enabled
+[2016.04.27-17.27.22:939][  0]LogInit: Transaction tracking system initialized
+[2016.04.27-17.27.22:970][  0]BlueprintLog: New page: Editor Load
+[2016.04.27-17.27.23:080][  0]LocalizationService: Info Localization service is disabled
+[2016.04.27-17.27.23:211][  0]LogConsoleResponse:Display: 
+[2016.04.27-17.27.23:393][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.04.27-17.27.23:393][  0]LogCook:Display: Mobile HDR setting 1
+[2016.04.27-17.27.23:393][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.27-17.27.23:484][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Unreal/TwinStickShooter/Content/' took 0.02s
+[2016.04.27-17.27.23:484][  0]SourceControl: Info Source control is disabled
+[2016.04.27-17.27.23:484][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/Unreal/TwinStickShooter/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.27-17.27.23:487][  0]LightingResults: New page: Lighting Build
+[2016.04.27-17.27.23:492][  0]MapCheck: New page: Map Check
+[2016.04.27-17.27.23:492][  0]LightingResults: New page: Lighting Build
+[2016.04.27-17.27.24:470][  0]LogAIModule: Creating AISystem for world NewMap
+[2016.04.27-17.27.24:481][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.27-17.27.24:482][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.27-17.27.24:593][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 111.054ms to complete.
+[2016.04.27-17.27.24:593][  0]LogFileHelpers: Loading map 'NewMap' took 1.109
+[2016.04.27-17.27.24:761][  0]LogCollectionManager: Loaded 0 collections in 0.002396 seconds
+[2016.04.27-17.27.24:806][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Unreal/TwinStickShooter/Saved/Collections/' took 0.01s
+[2016.04.27-17.27.24:806][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Unreal/TwinStickShooter/Content/Developers/wangbin4/Collections/' took 0.01s
+[2016.04.27-17.27.24:806][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/Unreal/TwinStickShooter/Content/Collections/' took 0.01s
+[2016.04.27-17.27.24:806][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.04.27-17.27.24:826][  0]LogContentBrowser: Native class hierarchy populated in 0.0189 seconds. Added 1981 classes and 345 folders.
+[2016.04.27-17.27.24:831][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.04.27-17.27.24:831][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.04.27-17.27.24:837][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0053 seconds. Added 12 classes and 0 folders.
+[2016.04.27-17.27.24:848][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0057 seconds. Added 0 classes and 0 folders.
+[2016.04.27-17.27.24:866][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0035 seconds. Added 1 classes and 2 folders.
+[2016.04.27-17.27.24:991][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0035 seconds. Added 0 classes and 0 folders.
+[2016.04.27-17.27.25:000][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0044 seconds. Added 1 classes and 2 folders.
+[2016.04.27-17.27.25:090][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.27-17.27.25:112][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.27-17.27.25:146][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0047 seconds. Added 1 classes and 2 folders.
+[2016.04.27-17.27.25:146][  0]LogLoad: Full Startup: 11.23 seconds (BP compile: 0.20 seconds)
+[2016.04.27-17.27.25:146][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.04.27-17.27.25:146][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.04.27-17.27.25:167][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2016.04.27-17.27.25:174][  0]LogOcInput: OculusInput pre-init called
+[2016.04.27-17.27.25:243][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.27-17.27.25:436][  1]LogAssetRegistry: Asset discovery search completed in 3.6647 seconds
+[2016.04.27-17.27.25:436][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2016.04.27-17.27.25:436][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2016.04.27-17.27.25:483][  2]LogRenderer: Reallocating scene render targets to support 1080x620 (Frame:2).
+[2016.04.27-17.27.32:804][218]LogRenderer: Reallocating scene render targets to support 1348x676 (Frame:265).
+[2016.04.27-17.27.58:696][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/HeroBlend" FILE="../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/HeroBlend.uasset" SILENT=true
+[2016.04.27-17.27.58:811][112]LogSavePackage: Save=104.88ms
+[2016.04.27-17.27.58:811][112]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/HeroBlend908A0FA8466B93618EE6A8907345512D.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/HeroBlend.uasset'
+[2016.04.27-17.27.58:839][112]LogSavePackage: Total save time: 136.44ms
+[2016.04.27-17.27.58:840][112]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/HeroBlend.uasset
+[2016.04.27-17.27.58:879][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-17.27.58:879][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.04.27-17.27.58:879][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.27-17.27.59:107][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/characterAnimateBP" FILE="../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/characterAnimateBP.uasset" SILENT=true
+[2016.04.27-17.27.59:287][112]LogSavePackage: Save=152.27ms
+[2016.04.27-17.27.59:287][112]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/characterAnimateBPF21D9B0B487A5DCB20BADC98121B8180.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/characterAnimateBP.uasset'
+[2016.04.27-17.27.59:289][112]LogSavePackage: Total save time: 180.27ms
+[2016.04.27-17.27.59:289][112]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/characterAnimateBP.uasset
+[2016.04.27-17.29.31:348][240]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.04.27-17.29.31:474][240]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.04.27-17.30.45:830][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/EnemyBlendSpace" FILE="../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/EnemyBlendSpace.uasset" SILENT=true
+[2016.04.27-17.30.45:843][674]LogSavePackage: Save=11.09ms
+[2016.04.27-17.30.45:843][674]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/EnemyBlendSpaceE8CF1F974A56FB4669948DA92BA14F4F.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/EnemyBlendSpace.uasset'
+[2016.04.27-17.30.45:846][674]LogSavePackage: Total save time: 14.38ms
+[2016.04.27-17.30.45:846][674]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/EnemyBlendSpace.uasset
+[2016.04.27-17.31.10:212][796]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:233][797]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:255][798]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:278][799]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:299][800]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:322][801]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:345][802]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:385][804]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:410][805]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:431][806]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:450][807]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:473][808]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:497][809]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:516][810]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:538][811]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:562][812]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:582][813]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:604][814]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:628][815]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:649][816]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:671][817]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:696][818]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:716][819]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:736][820]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:758][821]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:779][822]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:803][823]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:824][824]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:846][825]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:870][826]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:893][827]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:914][828]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:932][829]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:959][830]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:978][831]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.10:997][832]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:026][833]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:044][834]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:066][835]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:086][836]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:109][837]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:131][838]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:154][839]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:176][840]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:198][841]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:220][842]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:242][843]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:264][844]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:285][845]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:308][846]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:330][847]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:350][848]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:374][849]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:396][850]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:417][851]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:441][852]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:462][853]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:484][854]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:507][855]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:530][856]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:551][857]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:576][858]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:597][859]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:617][860]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:641][861]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:663][862]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:682][863]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:705][864]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:729][865]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:750][866]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:775][867]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:793][868]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:816][869]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:837][870]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:860][871]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:902][872]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:912][873]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:924][874]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:946][875]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:966][876]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.11:988][877]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:012][878]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:035][879]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:053][880]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:076][881]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:098][882]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:118][883]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:140][884]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:163][885]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:183][886]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:207][887]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:229][888]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:250][889]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:271][890]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:296][891]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:316][892]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:338][893]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:360][894]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:381][895]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:400][896]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:424][897]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:446][898]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:466][899]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:488][900]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:509][901]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:532][902]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:553][903]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:574][904]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:597][905]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:618][906]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:639][907]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:662][908]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:682][909]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:705][910]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:726][911]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:760][912]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:782][913]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:803][914]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:823][915]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:849][916]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:867][917]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:889][918]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:910][919]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:930][920]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:952][921]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:973][922]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.12:994][923]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.13:015][924]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.13:036][925]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.13:057][926]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.13:080][927]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.13:099][928]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.13:122][929]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.13:145][930]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.13:165][931]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.13:186][932]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.13:207][933]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.13:228][934]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.13:249][935]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.13:270][936]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.13:292][937]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:031][  8]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:052][  9]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:075][ 10]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:099][ 11]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:121][ 12]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:144][ 13]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:165][ 14]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:188][ 15]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:213][ 16]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:234][ 17]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:253][ 18]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:278][ 19]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:299][ 20]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:321][ 21]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:343][ 22]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:365][ 23]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:389][ 24]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:414][ 25]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:432][ 26]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:454][ 27]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:478][ 28]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:498][ 29]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:518][ 30]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:543][ 31]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:563][ 32]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:584][ 33]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:608][ 34]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:631][ 35]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:650][ 36]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:676][ 37]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:697][ 38]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:717][ 39]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:739][ 40]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:779][ 41]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:801][ 42]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:822][ 43]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:867][ 44]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:881][ 45]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:895][ 46]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:907][ 47]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:928][ 48]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:949][ 49]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:971][ 50]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.15:994][ 51]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.16:018][ 52]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.16:035][ 53]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.16:055][ 54]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.16:077][ 55]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.16:099][ 56]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.16:119][ 57]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.16:143][ 58]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.16:163][ 59]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.16:184][ 60]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.16:205][ 61]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.16:229][ 62]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.16:248][ 63]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.16:269][ 64]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.16:289][ 65]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.16:313][ 66]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:267][190]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:348][194]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:367][195]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:389][196]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:411][197]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:432][198]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:454][199]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:476][200]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:500][201]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:523][202]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:544][203]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:567][204]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:587][205]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:612][206]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:632][207]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:653][208]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:678][209]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:698][210]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:719][211]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:742][212]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:768][213]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:789][214]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:815][215]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:835][216]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:857][217]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:879][218]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:900][219]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:924][220]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:946][221]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:967][222]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.19:987][223]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.20:009][224]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.20:033][225]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.20:052][226]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.20:075][227]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.20:097][228]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.20:118][229]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.20:139][230]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.20:163][231]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.20:184][232]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.20:206][233]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.20:227][234]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.20:249][235]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.20:271][236]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.20:294][237]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.20:315][238]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.20:335][239]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:150][675]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:164][676]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:202][678]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:225][679]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:246][680]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:266][681]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:288][682]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:312][683]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:329][684]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:350][685]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:373][686]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:395][687]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:417][688]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:436][689]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:461][690]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:482][691]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:502][692]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:524][693]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:547][694]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:565][695]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:586][696]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:611][697]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:629][698]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:650][699]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:674][700]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:695][701]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:716][702]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:736][703]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:758][704]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:782][705]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:803][706]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:823][707]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:846][708]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:867][709]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:889][710]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:912][711]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:934][712]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:956][713]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:978][714]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.30:998][715]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:018][716]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:038][717]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:062][718]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:082][719]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:104][720]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:129][721]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:149][722]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:170][723]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:192][724]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:212][725]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:234][726]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:258][727]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:278][728]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:299][729]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:321][730]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:344][731]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:365][732]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:380][733]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:406][734]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:428][735]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:445][736]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:468][737]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:492][738]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:513][739]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:534][740]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.31:557][741]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.33:900][841]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.33:922][842]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.33:945][843]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.33:967][844]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.33:987][845]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:011][846]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:033][847]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:056][848]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:080][849]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:099][850]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:125][851]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:145][852]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:166][853]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:187][854]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:211][855]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:232][856]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:256][857]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:279][858]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:298][859]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:319][860]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:344][861]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:365][862]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:386][863]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:410][864]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:430][865]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:453][866]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:475][867]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:497][868]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:517][869]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:538][870]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:562][871]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:583][872]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:604][873]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:628][874]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:651][875]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:674][876]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:694][877]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:716][878]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:740][879]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:761][880]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:782][881]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.34:803][882]LogBlendSpace:Warning: Failed to get highlighted triangle
+[2016.04.27-17.31.57:795][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/EnemyBlendSpace" FILE="../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/EnemyBlendSpace.uasset" SILENT=true
+[2016.04.27-17.31.57:810][808]LogSavePackage: Save=6.91ms
+[2016.04.27-17.31.57:810][808]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/EnemyBlendSpace35CA05EB4C47725D92B1708F64DE7EAC.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/EnemyBlendSpace.uasset'
+[2016.04.27-17.31.57:812][808]LogSavePackage: Total save time: 16.10ms
+[2016.04.27-17.31.57:813][808]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/EnemyBlendSpace.uasset
+[2016.04.27-17.32.28:910][848]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0043 seconds. Added 108 classes and 0 folders.
+[2016.04.27-17.32.29:878][848]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2016.04.27-17.32.30:023][848]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.04.27-17.37.05:993][686]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2016.04.27-17.37.06:108][686]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.04.27-17.38.31:000][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-17.38.31:000][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.04.27-17.38.31:000][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.27-17.38.31:098][892]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.091
+[2016.04.27-17.38.31:123][892]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton] ([1] browsable assets)...
+[2016.04.27-17.38.31:123][892]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton]
+[2016.04.27-17.38.31:154][892]LogSavePackage: Save=18.38ms
+[2016.04.27-17.38.31:154][892]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/UE4_Mannequin_Skeleton_Auto1245C47F24A8C2012D38A78AAB4F4DEEE.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/Autosaves/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton_Auto1.uasset'
+[2016.04.27-17.38.31:156][892]LogSavePackage: Total save time: 31.92ms
+[2016.04.27-17.38.31:156][892]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Saved/Autosaves/Game/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton_Auto1.uasset
+[2016.04.27-17.38.31:162][892]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin] ([1] browsable assets)...
+[2016.04.27-17.38.31:218][892]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin]
+[2016.04.27-17.38.31:218][892]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin]
+[2016.04.27-17.38.31:380][892]LogSavePackage: Save=146.74ms
+[2016.04.27-17.38.31:380][892]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/SK_Mannequin_Auto17CEDD5C7443B107EFC4318B94FD3405A.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/Autosaves/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_Auto1.uasset'
+[2016.04.27-17.38.31:381][892]LogSavePackage: Total save time: 160.74ms
+[2016.04.27-17.38.31:381][892]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Saved/Autosaves/Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin_Auto1.uasset
+[2016.04.27-17.38.31:386][892]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AnimationAssets/EnemyAnimateBP] ([1] browsable assets)...
+[2016.04.27-17.38.31:417][892]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/AnimationAssets/EnemyAnimateBP.EnemyAnimateBP]
+[2016.04.27-17.38.31:417][892]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimationAssets/EnemyAnimateBP]
+[2016.04.27-17.38.31:445][892]LogSavePackage: Save=25.18ms
+[2016.04.27-17.38.31:445][892]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/EnemyAnimateBP_Auto1D2E9E0704D67C9E8BC0246A5E1B8ABD8.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/Autosaves/Game/AnimationAssets/EnemyAnimateBP_Auto1.uasset'
+[2016.04.27-17.38.31:458][892]LogSavePackage: Total save time: 38.54ms
+[2016.04.27-17.38.31:458][892]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Saved/Autosaves/Game/AnimationAssets/EnemyAnimateBP_Auto1.uasset
+[2016.04.27-17.38.31:458][892]LogFileHelpers: Auto-saving content packages took 0.353
+[2016.04.27-17.41.11:334][672]BlueprintLog: New page: Compile EnemyAnimateBP
+[2016.04.27-17.41.11:713][672]BlueprintEditorCompileResults: Info [0837.76] Compile of EnemyAnimateBP successful! [in 354 ms]
+[2016.04.27-17.42.14:310][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.27-17.42.14:310][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-17.42.14:310][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.04.27-17.42.17:188][968]BlueprintLog: New page: Compile EnemyCharacter
+[2016.04.27-17.42.17:276][968]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.04.27-17.42.17:631][968]BlueprintEditorCompileResults: Info [0903.70] Compile of EnemyCharacter successful! [in 442 ms]
+[2016.04.27-17.42.18:139][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/EnemyCharacter" FILE="../../../../../../GitHub/Unreal/TwinStickShooter/Content/Blueprints/EnemyCharacter.uasset" SILENT=true
+[2016.04.27-17.42.18:289][995]LogSavePackage: Save=141.14ms
+[2016.04.27-17.42.18:289][995]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/EnemyCharacter45B5152642928AAD990F108E92A3FDA6.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Content/Blueprints/EnemyCharacter.uasset'
+[2016.04.27-17.42.18:296][995]LogSavePackage: Total save time: 156.46ms
+[2016.04.27-17.42.18:296][995]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Content/Blueprints/EnemyCharacter.uasset
+[2016.04.27-17.42.19:154][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.27-17.42.19:155][ 76]PIE: New page: PIE session: NewMap (Apr 28, 2016, 9:42:19 AM)
+[2016.04.27-17.42.19:155][ 76]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.04.27-17.42.19:168][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013033s)
+[2016.04.27-17.42.19:169][ 76]LogAIModule: Creating AISystem for world NewMap
+[2016.04.27-17.42.19:169][ 76]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2016.04.27-17.42.19:169][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.014156s)
+[2016.04.27-17.42.19:170][ 76]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-17.42.19:220][ 76]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.27-17.42.19:233][ 76]LogInit: FAudioDevice initialized.
+[2016.04.27-17.42.19:351][ 76]LogWorld: Game class is 'TwinStickMode_C'
+[2016.04.27-17.42.19:354][ 76]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.04.28-01.42.19
+[2016.04.27-17.42.19:355][ 76]LogWorld: Bringing up level for play took: 0.003534
+[2016.04.27-17.42.19:368][ 76]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0079 seconds. Added 9 classes and 0 folders.
+[2016.04.27-17.42.19:387][ 76]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.638
+[2016.04.27-17.42.19:469][ 77]LogRenderer: Reallocating scene render targets to support 1348x720 (Frame:38056).
+[2016.04.27-17.42.23:364][199]LogBlueprintUserMessages: [HeroCharacter_C_0] 80.0
+[2016.04.27-17.42.23:605][207]LogBlueprintUserMessages: [HeroCharacter_C_0] 60.0
+[2016.04.27-17.42.23:847][215]LogBlueprintUserMessages: [HeroCharacter_C_0] 40.0
+[2016.04.27-17.42.24:121][224]LogBlueprintUserMessages: [HeroCharacter_C_0] 20.0
+[2016.04.27-17.42.26:004][285]LogBlueprintUserMessages: [EnemyCharacter_C_5] 80.0
+[2016.04.27-17.42.26:563][304]LogBlueprintUserMessages: [EnemyCharacter_C_0] 80.0
+[2016.04.27-17.42.27:022][319]LogBlueprintUserMessages: [EnemyCharacter_C_0] 60.0
+[2016.04.27-17.42.27:419][332]LogBlueprintUserMessages: [HeroCharacter_C_0] 0.0
+[2016.04.27-17.42.27:663][340]LogBlueprintUserMessages: [HeroCharacter_C_0] -20.0
+[2016.04.27-17.42.27:915][348]LogBlueprintUserMessages: [HeroCharacter_C_0] -40.0
+[2016.04.27-17.42.28:162][356]LogBlueprintUserMessages: [HeroCharacter_C_0] -60.0
+[2016.04.27-17.42.28:316][361]LogBlueprintUserMessages: [HeroCharacter_C_0] -80.0
+[2016.04.27-17.42.28:410][364]LogBlueprintUserMessages: [HeroCharacter_C_0] -100.0
+[2016.04.27-17.42.28:563][369]LogBlueprintUserMessages: [HeroCharacter_C_0] -120.0
+[2016.04.27-17.42.28:656][372]LogBlueprintUserMessages: [HeroCharacter_C_0] -140.0
+[2016.04.27-17.42.28:815][377]LogBlueprintUserMessages: [HeroCharacter_C_0] -160.0
+[2016.04.27-17.42.28:815][377]LogBlueprintUserMessages: [HeroCharacter_C_0] -180.0
+[2016.04.27-17.42.28:910][380]LogBlueprintUserMessages: [HeroCharacter_C_0] -200.0
+[2016.04.27-17.42.29:064][385]LogBlueprintUserMessages: [HeroCharacter_C_0] -220.0
+[2016.04.27-17.42.29:064][385]LogBlueprintUserMessages: [HeroCharacter_C_0] -240.0
+[2016.04.27-17.42.29:154][388]LogBlueprintUserMessages: [HeroCharacter_C_0] -260.0
+[2016.04.27-17.42.29:310][393]LogBlueprintUserMessages: [HeroCharacter_C_0] -280.0
+[2016.04.27-17.42.29:310][393]LogBlueprintUserMessages: [HeroCharacter_C_0] -300.0
+[2016.04.27-17.42.29:410][396]LogBlueprintUserMessages: [HeroCharacter_C_0] -320.0
+[2016.04.27-17.42.29:561][401]LogBlueprintUserMessages: [HeroCharacter_C_0] -340.0
+[2016.04.27-17.42.29:561][401]LogBlueprintUserMessages: [HeroCharacter_C_0] -360.0
+[2016.04.27-17.42.29:650][404]LogBlueprintUserMessages: [HeroCharacter_C_0] -380.0
+[2016.04.27-17.42.29:804][409]LogBlueprintUserMessages: [HeroCharacter_C_0] -400.0
+[2016.04.27-17.42.29:805][409]LogBlueprintUserMessages: [HeroCharacter_C_0] -420.0
+[2016.04.27-17.42.29:927][413]LogBlueprintUserMessages: [HeroCharacter_C_0] -440.0
+[2016.04.27-17.42.30:048][417]LogBlueprintUserMessages: [HeroCharacter_C_0] -460.0
+[2016.04.27-17.42.30:048][417]LogBlueprintUserMessages: [HeroCharacter_C_0] -480.0
+[2016.04.27-17.42.30:170][421]LogBlueprintUserMessages: [HeroCharacter_C_0] -500.0
+[2016.04.27-17.42.30:291][425]LogBlueprintUserMessages: [HeroCharacter_C_0] -520.0
+[2016.04.27-17.42.30:291][425]LogBlueprintUserMessages: [HeroCharacter_C_0] -540.0
+[2016.04.27-17.42.30:411][429]LogBlueprintUserMessages: [HeroCharacter_C_0] -560.0
+[2016.04.27-17.42.33:260][522]LogBlueprintUserMessages: [HeroCharacter_C_1] 80.0
+[2016.04.27-17.42.33:997][546]LogBlueprintUserMessages: [HeroCharacter_C_1] 60.0
+[2016.04.27-17.42.34:241][554]LogBlueprintUserMessages: [HeroCharacter_C_1] 40.0
+[2016.04.27-17.42.34:485][562]LogBlueprintUserMessages: [HeroCharacter_C_1] 20.0
+[2016.04.27-17.42.34:730][570]LogBlueprintUserMessages: [HeroCharacter_C_1] 0.0
+[2016.04.27-17.42.34:974][578]LogBlueprintUserMessages: [HeroCharacter_C_1] -20.0
+[2016.04.27-17.42.35:250][587]LogBlueprintUserMessages: [HeroCharacter_C_1] -40.0
+[2016.04.27-17.42.35:489][595]LogBlueprintUserMessages: [HeroCharacter_C_1] -60.0
+[2016.04.27-17.42.35:580][598]LogBlueprintUserMessages: [HeroCharacter_C_1] -80.0
+[2016.04.27-17.42.35:731][603]LogBlueprintUserMessages: [HeroCharacter_C_1] -100.0
+[2016.04.27-17.42.35:820][606]LogBlueprintUserMessages: [HeroCharacter_C_1] -120.0
+[2016.04.27-17.42.35:851][607]LogBlueprintUserMessages: [HeroCharacter_C_1] -140.0
+[2016.04.27-17.42.36:001][612]LogBlueprintUserMessages: [HeroCharacter_C_1] -160.0
+[2016.04.27-17.42.36:063][614]LogBlueprintUserMessages: [HeroCharacter_C_1] -180.0
+[2016.04.27-17.42.36:091][615]LogBlueprintUserMessages: [HeroCharacter_C_1] -200.0
+[2016.04.27-17.42.36:243][620]LogBlueprintUserMessages: [HeroCharacter_C_1] -220.0
+[2016.04.27-17.42.36:334][623]LogBlueprintUserMessages: [HeroCharacter_C_1] -240.0
+[2016.04.27-17.42.36:334][623]LogBlueprintUserMessages: [HeroCharacter_C_1] -260.0
+[2016.04.27-17.42.36:489][628]LogBlueprintUserMessages: [HeroCharacter_C_1] -280.0
+[2016.04.27-17.42.36:580][631]LogBlueprintUserMessages: [HeroCharacter_C_1] -300.0
+[2016.04.27-17.42.36:580][631]LogBlueprintUserMessages: [HeroCharacter_C_1] -320.0
+[2016.04.27-17.42.36:731][636]LogBlueprintUserMessages: [HeroCharacter_C_1] -340.0
+[2016.04.27-17.42.36:823][639]LogBlueprintUserMessages: [HeroCharacter_C_1] -360.0
+[2016.04.27-17.42.36:854][640]LogBlueprintUserMessages: [HeroCharacter_C_1] -380.0
+[2016.04.27-17.42.36:977][644]LogBlueprintUserMessages: [HeroCharacter_C_1] -400.0
+[2016.04.27-17.42.37:068][647]LogBlueprintUserMessages: [HeroCharacter_C_1] -420.0
+[2016.04.27-17.42.37:097][648]LogBlueprintUserMessages: [HeroCharacter_C_1] -440.0
+[2016.04.27-17.42.37:222][652]LogBlueprintUserMessages: [HeroCharacter_C_1] -460.0
+[2016.04.27-17.42.37:314][655]LogBlueprintUserMessages: [HeroCharacter_C_1] -480.0
+[2016.04.27-17.42.37:348][656]LogBlueprintUserMessages: [HeroCharacter_C_1] -500.0
+[2016.04.27-17.42.37:497][661]LogBlueprintUserMessages: [HeroCharacter_C_1] -520.0
+[2016.04.27-17.42.37:561][663]LogBlueprintUserMessages: [HeroCharacter_C_1] -540.0
+[2016.04.27-17.42.37:591][664]LogBlueprintUserMessages: [HeroCharacter_C_1] -560.0
+[2016.04.27-17.42.40:456][757]LogBlueprintUserMessages: [HeroCharacter_C_2] 80.0
+[2016.04.27-17.42.40:702][765]LogBlueprintUserMessages: [HeroCharacter_C_2] 60.0
+[2016.04.27-17.42.40:950][773]LogBlueprintUserMessages: [HeroCharacter_C_2] 40.0
+[2016.04.27-17.42.41:500][791]LogBlueprintUserMessages: [HeroCharacter_C_2] 20.0
+[2016.04.27-17.42.41:747][799]LogBlueprintUserMessages: [HeroCharacter_C_2] 0.0
+[2016.04.27-17.42.41:989][807]LogBlueprintUserMessages: [HeroCharacter_C_2] -20.0
+[2016.04.27-17.42.42:233][815]LogBlueprintUserMessages: [HeroCharacter_C_2] -40.0
+[2016.04.27-17.42.42:262][816]LogBlueprintUserMessages: [HeroCharacter_C_2] -60.0
+[2016.04.27-17.42.42:483][823]LogBlueprintUserMessages: [HeroCharacter_C_2] -80.0
+[2016.04.27-17.42.42:513][824]LogBlueprintUserMessages: [HeroCharacter_C_2] -100.0
+[2016.04.27-17.42.42:514][824]LogBlueprintUserMessages: [EnemyCharacter_C_12] 80.0
+[2016.04.27-17.42.42:751][832]LogBlueprintUserMessages: [HeroCharacter_C_2] -120.0
+[2016.04.27-17.42.42:751][832]LogBlueprintUserMessages: [HeroCharacter_C_2] -140.0
+[2016.04.27-17.42.42:993][840]LogBlueprintUserMessages: [HeroCharacter_C_2] -160.0
+[2016.04.27-17.42.42:993][840]LogBlueprintUserMessages: [HeroCharacter_C_2] -180.0
+[2016.04.27-17.42.43:232][848]LogBlueprintUserMessages: [HeroCharacter_C_2] -200.0
+[2016.04.27-17.42.43:263][849]LogBlueprintUserMessages: [HeroCharacter_C_2] -220.0
+[2016.04.27-17.42.43:501][857]LogBlueprintUserMessages: [HeroCharacter_C_2] -240.0
+[2016.04.27-17.42.43:501][857]LogBlueprintUserMessages: [HeroCharacter_C_2] -260.0
+[2016.04.27-17.42.43:746][865]LogBlueprintUserMessages: [HeroCharacter_C_2] -280.0
+[2016.04.27-17.42.43:746][865]LogBlueprintUserMessages: [HeroCharacter_C_2] -300.0
+[2016.04.27-17.42.43:987][873]LogBlueprintUserMessages: [HeroCharacter_C_2] -320.0
+[2016.04.27-17.42.44:017][874]LogBlueprintUserMessages: [HeroCharacter_C_2] -340.0
+[2016.04.27-17.42.44:259][882]LogBlueprintUserMessages: [HeroCharacter_C_2] -360.0
+[2016.04.27-17.42.44:259][882]LogBlueprintUserMessages: [HeroCharacter_C_2] -380.0
+[2016.04.27-17.42.44:410][887]LogBlueprintUserMessages: [HeroCharacter_C_2] -400.0
+[2016.04.27-17.42.44:501][890]LogBlueprintUserMessages: [HeroCharacter_C_2] -420.0
+[2016.04.27-17.42.44:501][890]LogBlueprintUserMessages: [HeroCharacter_C_2] -440.0
+[2016.04.27-17.42.44:653][895]LogBlueprintUserMessages: [HeroCharacter_C_2] -460.0
+[2016.04.27-17.42.44:746][898]LogBlueprintUserMessages: [HeroCharacter_C_2] -480.0
+[2016.04.27-17.42.44:746][898]LogBlueprintUserMessages: [HeroCharacter_C_2] -500.0
+[2016.04.27-17.42.46:730][964]LogBlueprintUserMessages: [EnemyCharacter_C_16] 80.0
+[2016.04.27-17.42.48:320][ 15]LogBlueprintUserMessages: [HeroCharacter_C_3] 80.0
+[2016.04.27-17.42.48:839][ 32]LogBlueprintUserMessages: [HeroCharacter_C_3] 60.0
+[2016.04.27-17.43.01:382][789]BlueprintLog: New page: Compile EnemyAnimateBP
+[2016.04.27-17.43.01:530][789]BlueprintEditorCompileResults: Info [0947.60] Compile of EnemyAnimateBP successful! [in 147 ms]
+[2016.04.27-17.43.02:057][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/EnemyAnimateBP" FILE="../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/EnemyAnimateBP.uasset" SILENT=true
+[2016.04.27-17.43.02:092][814]LogSavePackage: Save=21.53ms
+[2016.04.27-17.43.02:092][814]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/EnemyAnimateBP1772DCF5400894FA737F958281604717.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/EnemyAnimateBP.uasset'
+[2016.04.27-17.43.02:099][814]LogSavePackage: Total save time: 28.85ms
+[2016.04.27-17.43.02:099][814]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/EnemyAnimateBP.uasset
+[2016.04.27-17.43.02:687][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.27-17.43.02:687][844]PIE: New page: PIE session: NewMap (Apr 28, 2016, 9:43:02 AM)
+[2016.04.27-17.43.02:687][844]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.04.27-17.43.02:701][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013891s)
+[2016.04.27-17.43.02:702][844]LogAIModule: Creating AISystem for world NewMap
+[2016.04.27-17.43.02:702][844]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2016.04.27-17.43.02:702][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.014999s)
+[2016.04.27-17.43.02:749][844]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.27-17.43.02:761][844]LogInit: FAudioDevice initialized.
+[2016.04.27-17.43.02:810][844]LogWorld: Game class is 'TwinStickMode_C'
+[2016.04.27-17.43.02:815][844]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.04.28-01.43.02
+[2016.04.27-17.43.02:816][844]LogWorld: Bringing up level for play took: 0.005599
+[2016.04.27-17.43.02:834][844]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.083
+[2016.04.27-17.43.07:994][988]LogBlueprintUserMessages: [HeroCharacter_C_4] 80.0
+[2016.04.27-17.43.13:176][137]LogBlueprintUserMessages: [HeroCharacter_C_4] 60.0
+[2016.04.27-17.43.13:419][144]LogBlueprintUserMessages: [HeroCharacter_C_4] 40.0
+[2016.04.27-17.43.13:669][151]LogBlueprintUserMessages: [HeroCharacter_C_4] 20.0
+[2016.04.27-17.43.14:392][172]LogBlueprintUserMessages: [EnemyCharacter_C_21] 80.0
+[2016.04.27-17.43.14:531][176]LogBlueprintUserMessages: [EnemyCharacter_C_21] 60.0
+[2016.04.27-17.43.14:872][186]LogBlueprintUserMessages: [EnemyCharacter_C_21] 40.0
+[2016.04.27-17.43.15:076][192]LogBlueprintUserMessages: [EnemyCharacter_C_21] 20.0
+[2016.04.27-17.43.15:284][198]LogBlueprintUserMessages: [EnemyCharacter_C_21] 0.0
+[2016.04.27-17.43.16:633][237]LogBlueprintUserMessages: [HeroCharacter_C_4] 0.0
+[2016.04.27-17.43.16:699][239]LogBlueprintUserMessages: [EnemyCharacter_C_24] 80.0
+[2016.04.27-17.43.16:768][241]LogBlueprintUserMessages: [EnemyCharacter_C_23] 80.0
+[2016.04.27-17.43.16:874][244]LogBlueprintUserMessages: [HeroCharacter_C_4] -20.0
+[2016.04.27-17.43.16:907][245]LogBlueprintUserMessages: [EnemyCharacter_C_23] 60.0
+[2016.04.27-17.43.17:049][249]LogBlueprintUserMessages: [EnemyCharacter_C_23] 40.0
+[2016.04.27-17.43.17:118][251]LogBlueprintUserMessages: [HeroCharacter_C_4] -40.0
+[2016.04.27-17.43.17:189][253]LogBlueprintUserMessages: [HeroCharacter_C_4] -60.0
+[2016.04.27-17.43.17:189][253]LogBlueprintUserMessages: [EnemyCharacter_C_23] 20.0
+[2016.04.27-17.43.17:391][259]LogBlueprintUserMessages: [EnemyCharacter_C_23] 0.0
+[2016.04.27-17.43.17:424][260]LogBlueprintUserMessages: [HeroCharacter_C_4] -80.0
+[2016.04.27-17.43.17:604][265]LogBlueprintUserMessages: [EnemyCharacter_C_22] 80.0
+[2016.04.27-17.43.17:667][267]LogBlueprintUserMessages: [HeroCharacter_C_4] -100.0
+[2016.04.27-17.43.17:886][273]LogBlueprintUserMessages: [HeroCharacter_C_4] -120.0
+[2016.04.27-17.43.17:912][274]LogBlueprintUserMessages: [HeroCharacter_C_4] -140.0
+[2016.04.27-17.43.18:118][280]LogBlueprintUserMessages: [HeroCharacter_C_4] -160.0
+[2016.04.27-17.43.18:187][282]LogBlueprintUserMessages: [HeroCharacter_C_4] -180.0
+[2016.04.27-17.43.18:359][287]LogBlueprintUserMessages: [HeroCharacter_C_4] -200.0
+[2016.04.27-17.43.18:427][289]LogBlueprintUserMessages: [HeroCharacter_C_4] -220.0
+[2016.04.27-17.43.18:607][294]LogBlueprintUserMessages: [HeroCharacter_C_4] -240.0
+[2016.04.27-17.43.18:675][296]LogBlueprintUserMessages: [HeroCharacter_C_4] -260.0
+[2016.04.27-17.43.18:884][302]LogBlueprintUserMessages: [HeroCharacter_C_4] -280.0
+[2016.04.27-17.43.18:919][303]LogBlueprintUserMessages: [HeroCharacter_C_4] -300.0
+[2016.04.27-17.43.19:125][309]LogBlueprintUserMessages: [HeroCharacter_C_4] -320.0
+[2016.04.27-17.43.19:161][310]LogBlueprintUserMessages: [HeroCharacter_C_4] -340.0
+[2016.04.27-17.43.19:371][316]LogBlueprintUserMessages: [HeroCharacter_C_4] -360.0
+[2016.04.27-17.43.19:438][318]LogBlueprintUserMessages: [HeroCharacter_C_4] -380.0
+[2016.04.27-17.43.19:609][323]LogBlueprintUserMessages: [HeroCharacter_C_4] -400.0
+[2016.04.27-17.43.21:666][384]LogBlueprintUserMessages: [EnemyCharacter_C_27] 80.0
+[2016.04.27-17.43.21:734][386]LogBlueprintUserMessages: [EnemyCharacter_C_27] 60.0
+[2016.04.27-17.43.21:906][391]LogBlueprintUserMessages: [EnemyCharacter_C_27] 40.0
+[2016.04.27-17.43.21:971][393]LogBlueprintUserMessages: [EnemyCharacter_C_30] 80.0
+[2016.04.27-17.43.22:183][399]LogBlueprintUserMessages: [EnemyCharacter_C_30] 60.0
+[2016.04.27-17.43.22:357][404]LogBlueprintUserMessages: [EnemyCharacter_C_31] 80.0
+[2016.04.27-17.43.23:003][422]LogBlueprintUserMessages: [HeroCharacter_C_5] 80.0
+[2016.04.27-17.43.23:275][430]LogBlueprintUserMessages: [HeroCharacter_C_5] 60.0
+[2016.04.27-17.43.25:878][505]LogBlueprintUserMessages: [HeroCharacter_C_5] 40.0
+[2016.04.27-17.43.26:324][518]LogBlueprintUserMessages: [HeroCharacter_C_5] 20.0
+[2016.04.27-17.43.26:533][524]LogBlueprintUserMessages: [EnemyCharacter_C_30] 40.0
+[2016.04.27-17.43.26:568][525]LogBlueprintUserMessages: [HeroCharacter_C_5] 0.0
+[2016.04.27-17.43.26:705][529]LogBlueprintUserMessages: [EnemyCharacter_C_30] 20.0
+[2016.04.27-17.43.26:809][532]LogBlueprintUserMessages: [HeroCharacter_C_5] -20.0
+[2016.04.27-17.43.26:844][533]LogBlueprintUserMessages: [EnemyCharacter_C_30] 0.0
+[2016.04.27-17.43.26:985][537]LogBlueprintUserMessages: [EnemyCharacter_C_27] 20.0
+[2016.04.27-17.43.27:121][541]LogBlueprintUserMessages: [EnemyCharacter_C_28] 80.0
+[2016.04.27-17.43.27:255][545]LogBlueprintUserMessages: [EnemyCharacter_C_28] 60.0
+[2016.04.27-17.43.27:289][546]LogBlueprintUserMessages: [HeroCharacter_C_5] -40.0
+[2016.04.27-17.43.27:359][548]LogBlueprintUserMessages: [HeroCharacter_C_5] -60.0
+[2016.04.27-17.43.27:525][553]LogBlueprintUserMessages: [HeroCharacter_C_5] -80.0
+[2016.04.27-17.43.27:598][555]LogBlueprintUserMessages: [HeroCharacter_C_5] -100.0
+[2016.04.27-17.43.27:800][561]LogBlueprintUserMessages: [HeroCharacter_C_5] -120.0
+[2016.04.27-17.43.27:838][562]LogBlueprintUserMessages: [HeroCharacter_C_5] -140.0
+[2016.04.27-17.43.28:049][568]LogBlueprintUserMessages: [HeroCharacter_C_5] -160.0
+[2016.04.27-17.43.28:115][570]LogBlueprintUserMessages: [HeroCharacter_C_5] -180.0
+[2016.04.27-17.43.28:288][575]LogBlueprintUserMessages: [HeroCharacter_C_5] -200.0
+[2016.04.27-17.43.32:653][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimationAssets/EnemyBlendSpace" FILE="../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/EnemyBlendSpace.uasset" SILENT=true
+[2016.04.27-17.43.32:672][753]LogSavePackage: Save=3.11ms
+[2016.04.27-17.43.32:672][753]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/EnemyBlendSpaceBC6C8E8842282FC30E419D8C6789A4E1.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/EnemyBlendSpace.uasset'
+[2016.04.27-17.43.32:673][753]LogSavePackage: Total save time: 11.32ms
+[2016.04.27-17.43.32:673][753]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/EnemyBlendSpace.uasset
+[2016.04.27-17.50.43:421][275]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.27-17.50.43:421][275]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-17.50.43:421][275]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.04.27-17.50.43:497][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../GitHub/Unreal/TwinStickShooter/Saved/Autosaves/Game/NewMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.04.27-17.50.43:605][275]LogSavePackage: Save=98.45ms
+[2016.04.27-17.50.43:605][275]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/NewMap_Auto285A56C474A4B0DF6418721B3F11A42FE.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/Autosaves/Game/NewMap_Auto2.umap'
+[2016.04.27-17.50.43:625][275]LogSavePackage: Total save time: 126.15ms
+[2016.04.27-17.50.43:625][275]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Saved/Autosaves/Game/NewMap_Auto2.umap
+[2016.04.27-17.50.43:631][275]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.209
+[2016.04.27-17.50.43:631][275]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.209
+[2016.04.27-17.51.35:655][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.27-17.51.35:655][580]PIE: New page: PIE session: NewMap (Apr 28, 2016, 9:51:35 AM)
+[2016.04.27-17.51.35:655][580]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.04.27-17.51.35:664][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009014s)
+[2016.04.27-17.51.35:665][580]LogAIModule: Creating AISystem for world NewMap
+[2016.04.27-17.51.35:665][580]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2016.04.27-17.51.35:666][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.010109s)
+[2016.04.27-17.51.35:710][580]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.27-17.51.35:722][580]LogInit: FAudioDevice initialized.
+[2016.04.27-17.51.35:759][580]LogWorld: Game class is 'TwinStickMode_C'
+[2016.04.27-17.51.35:763][580]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.04.28-01.51.35
+[2016.04.27-17.51.35:764][580]LogWorld: Bringing up level for play took: 0.004721
+[2016.04.27-17.51.35:769][580]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 1.021
+[2016.04.27-17.51.36:791][613]LogBlueprintUserMessages: [HeroCharacter_C_6] 80.0
+[2016.04.27-17.51.37:405][635]LogBlueprintUserMessages: [EnemyCharacter_C_33] 80.0
+[2016.04.27-17.51.37:487][638]LogBlueprintUserMessages: [EnemyCharacter_C_34] 80.0
+[2016.04.27-17.51.37:787][649]LogBlueprintUserMessages: [EnemyCharacter_C_33] 60.0
+[2016.04.27-17.51.37:953][655]LogBlueprintUserMessages: [EnemyCharacter_C_33] 40.0
+[2016.04.27-17.51.38:035][658]LogBlueprintUserMessages: [EnemyCharacter_C_34] 60.0
+[2016.04.27-17.51.38:802][685]LogBlueprintUserMessages: [EnemyCharacter_C_33] 20.0
+[2016.04.27-17.51.40:105][732]LogBlueprintUserMessages: [HeroCharacter_C_6] 60.0
+[2016.04.27-17.51.42:004][802]LogBlueprintUserMessages: [EnemyCharacter_C_35] 80.0
+[2016.04.27-17.51.42:172][808]LogBlueprintUserMessages: [EnemyCharacter_C_35] 60.0
+[2016.04.27-17.51.42:363][815]LogBlueprintUserMessages: [EnemyCharacter_C_35] 40.0
+[2016.04.27-17.51.42:540][821]LogBlueprintUserMessages: [EnemyCharacter_C_35] 20.0
+[2016.04.27-17.51.42:703][826]LogBlueprintUserMessages: [EnemyCharacter_C_35] 0.0
+[2016.04.27-17.51.43:154][842]LogBlueprintUserMessages: [EnemyCharacter_C_34] 40.0
+[2016.04.27-17.51.43:293][847]LogBlueprintUserMessages: [EnemyCharacter_C_0] 80.0
+[2016.04.27-17.51.43:493][854]LogBlueprintUserMessages: [EnemyCharacter_C_33] 0.0
+[2016.04.27-17.51.44:284][883]LogBlueprintUserMessages: [EnemyCharacter_C_37] 80.0
+[2016.04.27-17.51.45:282][920]LogBlueprintUserMessages: [HeroCharacter_C_6] 40.0
+[2016.04.27-17.51.45:605][932]LogBlueprintUserMessages: [EnemyCharacter_C_0] 60.0
+[2016.04.27-17.51.45:881][942]LogBlueprintUserMessages: [HeroCharacter_C_6] 20.0
+[2016.04.27-17.51.46:259][956]LogBlueprintUserMessages: [EnemyCharacter_C_0] 40.0
+[2016.04.27-17.51.46:289][957]LogBlueprintUserMessages: [HeroCharacter_C_6] 0.0
+[2016.04.27-17.51.46:425][962]LogBlueprintUserMessages: [EnemyCharacter_C_0] 20.0
+[2016.04.27-17.51.46:535][966]LogBlueprintUserMessages: [HeroCharacter_C_6] -20.0
+[2016.04.27-17.51.46:587][968]LogBlueprintUserMessages: [EnemyCharacter_C_36] 80.0
+[2016.04.27-17.51.46:696][972]LogBlueprintUserMessages: [EnemyCharacter_C_36] 60.0
+[2016.04.27-17.51.46:778][975]LogBlueprintUserMessages: [HeroCharacter_C_6] -40.0
+[2016.04.27-17.51.46:836][977]LogBlueprintUserMessages: [EnemyCharacter_C_36] 40.0
+[2016.04.27-17.51.46:889][979]LogBlueprintUserMessages: [HeroCharacter_C_6] -60.0
+[2016.04.27-17.54.06:205][411]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_C (EnemyCharacter)
+[2016.04.27-17.54.32:893][915]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.27-17.54.32:893][915]PIE: New page: PIE session: NewMap (Apr 28, 2016, 9:54:32 AM)
+[2016.04.27-17.54.32:893][915]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.04.27-17.54.32:899][915]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005246s)
+[2016.04.27-17.54.32:899][915]LogAIModule: Creating AISystem for world NewMap
+[2016.04.27-17.54.32:899][915]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2016.04.27-17.54.32:900][915]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.006313s)
+[2016.04.27-17.54.32:900][915]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.27-17.54.32:900][915]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-17.54.32:900][915]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.04.27-17.54.32:942][915]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.27-17.54.32:952][915]LogInit: FAudioDevice initialized.
+[2016.04.27-17.54.33:002][915]LogWorld: Game class is 'TwinStickMode_C'
+[2016.04.27-17.54.33:005][915]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.04.28-01.54.33
+[2016.04.27-17.54.33:006][915]LogWorld: Bringing up level for play took: 0.003671
+[2016.04.27-17.54.33:028][915]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.283
+[2016.04.27-17.54.34:934][975]LogBlueprintUserMessages: [HeroCharacter_C_8] 80.0
+[2016.04.27-17.54.34:992][977]LogBlueprintUserMessages: [HeroCharacter_C_8] 60.0
+[2016.04.27-17.54.35:197][984]LogBlueprintUserMessages: [HeroCharacter_C_8] 40.0
+[2016.04.27-17.54.35:256][986]LogBlueprintUserMessages: [HeroCharacter_C_8] 20.0
+[2016.04.27-17.54.36:010][ 11]LogBlueprintUserMessages: [HeroCharacter_C_8] 0.0
+[2016.04.27-17.54.36:254][ 19]LogBlueprintUserMessages: [HeroCharacter_C_8] -20.0
+[2016.04.27-17.54.36:406][ 24]LogBlueprintUserMessages: [HeroCharacter_C_8] -40.0
+[2016.04.27-17.54.36:498][ 27]LogBlueprintUserMessages: [HeroCharacter_C_8] -60.0
+[2016.04.27-17.54.36:559][ 29]LogBlueprintUserMessages: [HeroCharacter_C_8] -80.0
+[2016.04.27-17.54.36:650][ 32]LogBlueprintUserMessages: [HeroCharacter_C_8] -100.0
+[2016.04.27-17.54.36:741][ 35]LogBlueprintUserMessages: [HeroCharacter_C_8] -120.0
+[2016.04.27-17.54.36:803][ 37]LogBlueprintUserMessages: [HeroCharacter_C_8] -140.0
+[2016.04.27-17.54.36:894][ 40]LogBlueprintUserMessages: [HeroCharacter_C_8] -160.0
+[2016.04.27-17.54.37:017][ 44]LogBlueprintUserMessages: [HeroCharacter_C_8] -180.0
+[2016.04.27-17.54.37:047][ 45]LogBlueprintUserMessages: [HeroCharacter_C_8] -200.0
+[2016.04.27-17.54.37:137][ 48]LogBlueprintUserMessages: [HeroCharacter_C_8] -220.0
+[2016.04.27-17.54.37:257][ 52]LogBlueprintUserMessages: [HeroCharacter_C_8] -240.0
+[2016.04.27-17.54.37:288][ 53]LogBlueprintUserMessages: [HeroCharacter_C_8] -260.0
+[2016.04.27-17.54.37:409][ 57]LogBlueprintUserMessages: [HeroCharacter_C_8] -280.0
+[2016.04.27-17.54.37:501][ 60]LogBlueprintUserMessages: [HeroCharacter_C_8] -300.0
+[2016.04.27-17.54.37:562][ 62]LogBlueprintUserMessages: [HeroCharacter_C_8] -320.0
+[2016.04.27-17.54.37:653][ 65]LogBlueprintUserMessages: [HeroCharacter_C_8] -340.0
+[2016.04.27-17.54.37:743][ 68]LogBlueprintUserMessages: [HeroCharacter_C_8] -360.0
+[2016.04.27-17.54.37:803][ 70]LogBlueprintUserMessages: [HeroCharacter_C_8] -380.0
+[2016.04.27-17.54.37:895][ 73]LogBlueprintUserMessages: [HeroCharacter_C_8] -400.0
+[2016.04.27-17.54.38:017][ 77]LogBlueprintUserMessages: [HeroCharacter_C_8] -420.0
+[2016.04.27-17.54.38:053][ 78]LogBlueprintUserMessages: [HeroCharacter_C_8] -440.0
+[2016.04.27-17.54.38:143][ 81]LogBlueprintUserMessages: [HeroCharacter_C_8] -460.0
+[2016.04.27-17.54.38:264][ 85]LogBlueprintUserMessages: [HeroCharacter_C_8] -480.0
+[2016.04.27-17.54.38:294][ 86]LogBlueprintUserMessages: [HeroCharacter_C_8] -500.0
+[2016.04.27-17.54.38:385][ 89]LogBlueprintUserMessages: [HeroCharacter_C_8] -520.0
+[2016.04.27-17.54.38:505][ 93]LogBlueprintUserMessages: [HeroCharacter_C_8] -540.0
+[2016.04.27-17.54.38:535][ 94]LogBlueprintUserMessages: [HeroCharacter_C_8] -560.0
+[2016.04.27-17.54.38:655][ 98]LogBlueprintUserMessages: [HeroCharacter_C_8] -580.0
+[2016.04.27-17.54.38:745][101]LogBlueprintUserMessages: [HeroCharacter_C_8] -600.0
+[2016.04.27-17.54.38:805][103]LogBlueprintUserMessages: [HeroCharacter_C_8] -620.0
+[2016.04.27-17.54.38:896][106]LogBlueprintUserMessages: [HeroCharacter_C_8] -640.0
+[2016.04.27-17.55.05:037][102]BlueprintLog: New page: Compile EnemyAI
+[2016.04.27-17.55.05:056][102]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.27-17.55.05:056][102]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-17.55.05:056][102]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.04.27-17.55.05:181][102]BlueprintEditorCompileResults: Info [1671.26] Compile of EnemyAI successful! [in 143 ms]
+[2016.04.27-17.55.05:572][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/EnemyAI" FILE="../../../../../../GitHub/Unreal/TwinStickShooter/Content/Blueprints/EnemyAI.uasset" SILENT=true
+[2016.04.27-17.55.05:602][129]LogSavePackage: Save=23.09ms
+[2016.04.27-17.55.05:602][129]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/EnemyAI0BED3FAC4FB30ACC77FFF58455847679.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Content/Blueprints/EnemyAI.uasset'
+[2016.04.27-17.55.05:604][129]LogSavePackage: Total save time: 31.04ms
+[2016.04.27-17.55.05:604][129]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Content/Blueprints/EnemyAI.uasset
+[2016.04.27-17.55.07:026][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.27-17.55.07:026][185]PIE: New page: PIE session: NewMap (Apr 28, 2016, 9:55:07 AM)
+[2016.04.27-17.55.07:026][185]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.04.27-17.55.07:034][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008216s)
+[2016.04.27-17.55.07:035][185]LogAIModule: Creating AISystem for world NewMap
+[2016.04.27-17.55.07:035][185]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2016.04.27-17.55.07:035][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.009212s)
+[2016.04.27-17.55.07:080][185]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.27-17.55.07:089][185]LogInit: FAudioDevice initialized.
+[2016.04.27-17.55.07:120][185]LogWorld: Game class is 'TwinStickMode_C'
+[2016.04.27-17.55.07:123][185]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.04.28-01.55.07
+[2016.04.27-17.55.07:125][185]LogWorld: Bringing up level for play took: 0.004609
+[2016.04.27-17.55.07:129][185]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap 0.385
+[2016.04.27-17.55.09:953][295]LogBlueprintUserMessages: [HeroCharacter_C_10] 80.0
+[2016.04.27-17.55.10:196][305]LogBlueprintUserMessages: [HeroCharacter_C_10] 60.0
+[2016.04.27-17.55.10:442][315]LogBlueprintUserMessages: [HeroCharacter_C_10] 40.0
+[2016.04.27-17.55.12:785][412]LogBlueprintUserMessages: [HeroCharacter_C_10] 20.0
+[2016.04.27-17.55.14:883][495]LogBlueprintUserMessages: [HeroCharacter_C_10] 0.0
+[2016.04.27-17.55.15:126][505]LogBlueprintUserMessages: [HeroCharacter_C_10] -20.0
+[2016.04.27-17.55.15:368][515]LogBlueprintUserMessages: [HeroCharacter_C_10] -40.0
+[2016.04.27-17.55.15:537][522]LogBlueprintUserMessages: [HeroCharacter_C_10] -60.0
+[2016.04.27-17.55.15:634][526]LogBlueprintUserMessages: [HeroCharacter_C_10] -80.0
+[2016.04.27-17.55.15:779][532]LogBlueprintUserMessages: [HeroCharacter_C_10] -100.0
+[2016.04.27-17.55.15:876][536]LogBlueprintUserMessages: [HeroCharacter_C_10] -120.0
+[2016.04.27-17.55.27:743][497]BlueprintLog: New page: Compile EnemyAI
+[2016.04.27-17.55.27:892][497]BlueprintEditorCompileResults: Info [1693.97] Compile of EnemyAI successful! [in 148 ms]
+[2016.04.27-17.55.46:046][348]BlueprintLog: New page: Compile EnemyAI
+[2016.04.27-17.55.46:182][348]BlueprintEditorCompileResults: Info [1712.26] Compile of EnemyAI successful! [in 134 ms]
+[2016.04.27-17.55.46:525][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/EnemyAI" FILE="../../../../../../GitHub/Unreal/TwinStickShooter/Content/Blueprints/EnemyAI.uasset" SILENT=true
+[2016.04.27-17.55.46:571][382]LogSavePackage: Save=26.99ms
+[2016.04.27-17.55.46:571][382]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/EnemyAI292D38344BC067D64F976797EE56A385.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Content/Blueprints/EnemyAI.uasset'
+[2016.04.27-17.55.46:573][382]LogSavePackage: Total save time: 34.74ms
+[2016.04.27-17.55.46:573][382]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Content/Blueprints/EnemyAI.uasset
+[2016.04.27-17.55.48:199][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.27-17.55.48:200][450]PIE: New page: PIE session: NewMap (Apr 28, 2016, 9:55:48 AM)
+[2016.04.27-17.55.48:200][450]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.04.27-17.55.48:206][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006441s)
+[2016.04.27-17.55.48:207][450]LogAIModule: Creating AISystem for world NewMap
+[2016.04.27-17.55.48:207][450]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2016.04.27-17.55.48:207][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.007481s)
+[2016.04.27-17.55.48:252][450]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.27-17.55.48:260][450]LogInit: FAudioDevice initialized.
+[2016.04.27-17.55.48:293][450]LogWorld: Game class is 'TwinStickMode_C'
+[2016.04.27-17.55.48:297][450]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.04.28-01.55.48
+[2016.04.27-17.55.48:298][450]LogWorld: Bringing up level for play took: 0.004805
+[2016.04.27-17.55.48:301][450]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.442
+[2016.04.27-17.56.31:384][280]LogBlueprintUserMessages: [HeroCharacter_C_11] 80.0
+[2016.04.27-17.56.48:475][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.27-17.56.48:475][318]PIE: New page: PIE session: NewMap (Apr 28, 2016, 9:56:48 AM)
+[2016.04.27-17.56.48:475][318]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.04.27-17.56.48:482][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006808s)
+[2016.04.27-17.56.48:483][318]LogAIModule: Creating AISystem for world NewMap
+[2016.04.27-17.56.48:483][318]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2016.04.27-17.56.48:483][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.007813s)
+[2016.04.27-17.56.48:529][318]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.27-17.56.48:539][318]LogInit: FAudioDevice initialized.
+[2016.04.27-17.56.48:572][318]LogWorld: Game class is 'TwinStickMode_C'
+[2016.04.27-17.56.48:576][318]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.04.28-01.56.48
+[2016.04.27-17.56.48:577][318]LogWorld: Bringing up level for play took: 0.004227
+[2016.04.27-17.56.48:580][318]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.162
+[2016.04.27-17.57.41:496][178]BlueprintLog: New page: Compile HeroCharacter
+[2016.04.27-17.57.41:579][178]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-17.57.41:718][178]BlueprintEditorCompileResults: Info [1827.80] Compile of HeroCharacter successful! [in 221 ms]
+[2016.04.27-17.57.41:977][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroCharacter" FILE="../../../../../../GitHub/Unreal/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset" SILENT=true
+[2016.04.27-17.57.42:180][187]LogSavePackage: Save=180.31ms
+[2016.04.27-17.57.42:180][187]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/HeroCharacter5CB56F9D42DB682385942ABA3BCF2325.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset'
+[2016.04.27-17.57.42:184][187]LogSavePackage: Total save time: 205.54ms
+[2016.04.27-17.57.42:184][187]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset
+[2016.04.27-17.57.44:566][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.27-17.57.44:567][283]PIE: New page: PIE session: NewMap (Apr 28, 2016, 9:57:44 AM)
+[2016.04.27-17.57.44:567][283]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.04.27-17.57.44:573][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006199s)
+[2016.04.27-17.57.44:574][283]LogAIModule: Creating AISystem for world NewMap
+[2016.04.27-17.57.44:574][283]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2016.04.27-17.57.44:574][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.007121s)
+[2016.04.27-17.57.44:574][283]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-17.57.44:574][283]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.04.27-17.57.44:622][283]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.27-17.57.44:632][283]LogInit: FAudioDevice initialized.
+[2016.04.27-17.57.44:663][283]LogWorld: Game class is 'TwinStickMode_C'
+[2016.04.27-17.57.44:667][283]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.04.28-01.57.44
+[2016.04.27-17.57.44:668][283]LogWorld: Bringing up level for play took: 0.004719
+[2016.04.27-17.57.44:671][283]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.069
+[2016.04.27-17.57.49:573][481]LogBlueprintUserMessages: [EnemyCharacter_C_63] 80.0
+[2016.04.27-17.57.49:739][488]LogBlueprintUserMessages: [EnemyCharacter_C_63] 60.0
+[2016.04.27-17.57.49:836][492]LogBlueprintUserMessages: [EnemyCharacter_C_63] 40.0
+[2016.04.27-17.57.50:197][507]LogBlueprintUserMessages: [EnemyCharacter_C_63] 20.0
+[2016.04.27-17.57.52:417][601]LogBlueprintUserMessages: [EnemyCharacter_C_63] 0.0
+[2016.04.27-17.58.05:311][147]LogBlueprintUserMessages: [EnemyCharacter_C_66] 80.0
+[2016.04.27-17.58.09:477][323]LogBlueprintUserMessages: [EnemyCharacter_C_66] 60.0
+[2016.04.27-17.58.13:935][512]LogBlueprintUserMessages: [EnemyCharacter_C_66] 40.0
+[2016.04.27-17.58.14:076][518]LogBlueprintUserMessages: [EnemyCharacter_C_66] 20.0
+[2016.04.27-17.58.14:218][524]LogBlueprintUserMessages: [EnemyCharacter_C_66] 0.0
+[2016.04.27-17.58.15:744][588]LogBlueprintUserMessages: [EnemyCharacter_C_65] 80.0
+[2016.04.27-17.58.16:049][601]LogBlueprintUserMessages: [EnemyCharacter_C_65] 60.0
+[2016.04.27-17.58.16:376][615]LogBlueprintUserMessages: [EnemyCharacter_C_64] 80.0
+[2016.04.27-17.58.16:447][618]LogBlueprintUserMessages: [EnemyCharacter_C_64] 60.0
+[2016.04.27-17.58.17:215][650]LogBlueprintUserMessages: [EnemyCharacter_C_65] 40.0
+[2016.04.27-17.58.17:287][653]LogBlueprintUserMessages: [EnemyCharacter_C_65] 20.0
+[2016.04.27-17.58.17:360][656]LogBlueprintUserMessages: [EnemyCharacter_C_65] 0.0
+[2016.04.27-17.58.17:792][674]LogBlueprintUserMessages: [HeroCharacter_C_10] 80.0
+[2016.04.27-17.58.19:378][740]LogBlueprintUserMessages: [EnemyCharacter_C_68] 80.0
+[2016.04.27-17.58.19:544][747]LogBlueprintUserMessages: [EnemyCharacter_C_68] 60.0
+[2016.04.27-17.58.20:247][776]LogBlueprintUserMessages: [EnemyCharacter_C_68] 40.0
+[2016.04.27-17.58.21:153][812]LogBlueprintUserMessages: [EnemyCharacter_C_68] 20.0
+[2016.04.27-17.58.21:304][818]LogBlueprintUserMessages: [EnemyCharacter_C_68] 0.0
+[2016.04.27-17.58.22:513][867]LogBlueprintUserMessages: [EnemyCharacter_C_64] 40.0
+[2016.04.27-17.58.23:131][893]LogBlueprintUserMessages: [EnemyCharacter_C_64] 20.0
+[2016.04.27-17.58.23:273][899]LogBlueprintUserMessages: [EnemyCharacter_C_64] 0.0
+[2016.04.27-17.58.23:581][912]LogBlueprintUserMessages: [EnemyCharacter_C_0] 80.0
+[2016.04.27-17.58.23:722][918]LogBlueprintUserMessages: [EnemyCharacter_C_0] 60.0
+[2016.04.27-17.58.23:864][924]LogBlueprintUserMessages: [EnemyCharacter_C_0] 40.0
+[2016.04.27-17.58.24:006][930]LogBlueprintUserMessages: [EnemyCharacter_C_0] 20.0
+[2016.04.27-17.58.24:148][936]LogBlueprintUserMessages: [EnemyCharacter_C_0] 0.0
+[2016.04.27-17.58.24:763][962]LogBlueprintUserMessages: [EnemyCharacter_C_71] 80.0
+[2016.04.27-17.58.24:859][966]LogBlueprintUserMessages: [EnemyCharacter_C_71] 60.0
+[2016.04.27-17.58.25:026][973]LogBlueprintUserMessages: [EnemyCharacter_C_71] 40.0
+[2016.04.27-17.58.25:310][985]LogBlueprintUserMessages: [EnemyCharacter_C_70] 80.0
+[2016.04.27-17.58.25:453][991]LogBlueprintUserMessages: [EnemyCharacter_C_70] 60.0
+[2016.04.27-17.58.25:595][997]LogBlueprintUserMessages: [EnemyCharacter_C_70] 40.0
+[2016.04.27-17.58.25:738][  3]LogBlueprintUserMessages: [EnemyCharacter_C_70] 20.0
+[2016.04.27-17.58.25:880][  9]LogBlueprintUserMessages: [EnemyCharacter_C_70] 0.0
+[2016.04.27-17.58.45:826][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.27-17.58.45:826][721]PIE: New page: PIE session: NewMap (Apr 28, 2016, 9:58:45 AM)
+[2016.04.27-17.58.45:826][721]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2016.04.27-17.58.45:833][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006993s)
+[2016.04.27-17.58.45:834][721]LogAIModule: Creating AISystem for world NewMap
+[2016.04.27-17.58.45:834][721]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2016.04.27-17.58.45:834][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.007961s)
+[2016.04.27-17.58.45:880][721]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.27-17.58.45:890][721]LogInit: FAudioDevice initialized.
+[2016.04.27-17.58.45:926][721]LogWorld: Game class is 'TwinStickMode_C'
+[2016.04.27-17.58.45:930][721]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.04.28-01.58.45
+[2016.04.27-17.58.45:931][721]LogWorld: Bringing up level for play took: 0.004583
+[2016.04.27-17.58.45:934][721]PIE: Info Play in editor start time for /Game/UEDPIE_0_NewMap -0.805
+[2016.04.27-17.58.47:518][781]LogBlueprintUserMessages: [EnemyCharacter_C_0] 80.0
+[2016.04.27-17.58.47:882][796]LogBlueprintUserMessages: [EnemyCharacter_C_75] 80.0
+[2016.04.27-17.58.47:955][799]LogBlueprintUserMessages: [EnemyCharacter_C_0] 60.0
+[2016.04.27-17.58.48:030][802]LogBlueprintUserMessages: [EnemyCharacter_C_75] 60.0
+[2016.04.27-17.58.48:173][808]LogBlueprintUserMessages: [EnemyCharacter_C_0] 40.0
+[2016.04.27-17.58.50:478][904]LogBlueprintUserMessages: [HeroCharacter_C_11] 80.0
+[2016.04.27-17.58.52:489][986]LogBlueprintUserMessages: [EnemyCharacter_C_0] 20.0
+[2016.04.27-17.58.52:813][999]LogBlueprintUserMessages: [EnemyCharacter_C_75] 40.0
+[2016.04.27-17.58.52:980][  6]LogBlueprintUserMessages: [EnemyCharacter_C_76] 80.0
+[2016.04.27-17.58.53:126][ 12]LogBlueprintUserMessages: [EnemyCharacter_C_76] 60.0
+[2016.04.27-17.58.53:150][ 13]LogBlueprintUserMessages: [EnemyCharacter_C_0] 0.0
+[2016.04.27-17.58.56:849][170]LogBlueprintUserMessages: [EnemyCharacter_C_73] 80.0
+[2016.04.27-17.58.56:990][176]LogBlueprintUserMessages: [EnemyCharacter_C_73] 60.0
+[2016.04.27-17.58.57:313][190]LogBlueprintUserMessages: [EnemyCharacter_C_76] 40.0
+[2016.04.27-17.58.59:484][282]LogBlueprintUserMessages: [EnemyCharacter_C_75] 20.0
+[2016.04.27-17.58.59:687][290]LogBlueprintUserMessages: [EnemyCharacter_C_75] 0.0
+[2016.04.27-17.58.59:816][295]LogBlueprintUserMessages: [EnemyCharacter_C_73] 40.0
+[2016.04.27-17.58.59:866][297]LogBlueprintUserMessages: [EnemyCharacter_C_76] 20.0
+[2016.04.27-17.58.59:891][298]LogBlueprintUserMessages: [EnemyCharacter_C_73] 20.0
+[2016.04.27-17.58.59:993][302]LogBlueprintUserMessages: [EnemyCharacter_C_73] 0.0
+[2016.04.27-17.59.00:092][306]LogBlueprintUserMessages: [EnemyCharacter_C_76] 0.0
+[2016.04.27-17.59.00:457][321]LogBlueprintUserMessages: [EnemyCharacter_C_77] 80.0
+[2016.04.27-17.59.00:653][329]LogBlueprintUserMessages: [EnemyCharacter_C_77] 60.0
+[2016.04.27-17.59.00:778][334]LogBlueprintUserMessages: [EnemyCharacter_C_74] 80.0
+[2016.04.27-17.59.00:828][336]LogBlueprintUserMessages: [EnemyCharacter_C_78] 80.0
+[2016.04.27-17.59.03:704][457]LogBlueprintUserMessages: [EnemyCharacter_C_80] 80.0
+[2016.04.27-17.59.04:761][502]LogBlueprintUserMessages: [EnemyCharacter_C_80] 60.0
+[2016.04.27-17.59.07:500][621]LogBlueprintUserMessages: [EnemyCharacter_C_80] 40.0
+[2016.04.27-17.59.07:593][625]LogBlueprintUserMessages: [EnemyCharacter_C_80] 20.0
+[2016.04.27-17.59.09:664][714]LogBlueprintUserMessages: [EnemyCharacter_C_78] 60.0
+[2016.04.27-17.59.10:168][736]LogBlueprintUserMessages: [EnemyCharacter_C_80] 0.0
+[2016.04.27-17.59.10:866][766]LogBlueprintUserMessages: [EnemyCharacter_C_78] 40.0
+[2016.04.27-17.59.11:004][772]LogBlueprintUserMessages: [EnemyCharacter_C_78] 20.0
+[2016.04.27-17.59.12:582][838]LogBlueprintUserMessages: [EnemyCharacter_C_77] 40.0
+[2016.04.27-17.59.12:655][841]LogBlueprintUserMessages: [EnemyCharacter_C_77] 20.0
+[2016.04.27-17.59.12:993][855]LogBlueprintUserMessages: [EnemyCharacter_C_81] 80.0
+[2016.04.27-17.59.13:062][858]LogBlueprintUserMessages: [EnemyCharacter_C_81] 60.0
+[2016.04.27-17.59.13:540][878]LogBlueprintUserMessages: [EnemyCharacter_C_81] 40.0
+[2016.04.27-17.59.14:797][932]LogBlueprintUserMessages: [EnemyCharacter_C_78] 0.0
+[2016.04.27-17.59.15:055][943]LogBlueprintUserMessages: [HeroCharacter_C_11] 60.0
+[2016.04.27-17.59.16:581][  5]LogBlueprintUserMessages: [EnemyCharacter_C_79] 80.0
+[2016.04.27-17.59.16:781][ 13]LogBlueprintUserMessages: [EnemyCharacter_C_79] 60.0
+[2016.04.27-17.59.16:933][ 19]LogBlueprintUserMessages: [EnemyCharacter_C_79] 40.0
+[2016.04.27-17.59.17:114][ 26]LogBlueprintUserMessages: [EnemyCharacter_C_79] 20.0
+[2016.04.27-17.59.17:320][ 34]LogBlueprintUserMessages: [EnemyCharacter_C_82] 80.0
+[2016.04.27-17.59.17:627][ 46]LogBlueprintUserMessages: [EnemyCharacter_C_74] 60.0
+[2016.04.27-17.59.17:728][ 50]LogBlueprintUserMessages: [EnemyCharacter_C_74] 40.0
+[2016.04.27-17.59.19:861][138]LogBlueprintUserMessages: [EnemyCharacter_C_81] 20.0
+[2016.04.27-17.59.19:983][143]LogBlueprintUserMessages: [EnemyCharacter_C_81] 0.0
+[2016.04.27-18.03.48:264][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../GitHub/Unreal/TwinStickShooter/Saved/Autosaves/Game/NewMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.04.27-18.03.48:328][172]LogSavePackage: Save=54.59ms
+[2016.04.27-18.03.48:328][172]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/NewMap_Auto38AA6B0174123A96CACC760AD18D6CC48.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/Autosaves/Game/NewMap_Auto3.umap'
+[2016.04.27-18.03.48:330][172]LogSavePackage: Total save time: 65.19ms
+[2016.04.27-18.03.48:330][172]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Saved/Autosaves/Game/NewMap_Auto3.umap
+[2016.04.27-18.03.48:331][172]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewMap' took 0.122
+[2016.04.27-18.03.48:331][172]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.122
+[2016.04.27-18.03.48:338][172]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/HeroCharacter] ([1] browsable assets)...
+[2016.04.27-18.03.48:338][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HeroCharacter]
+[2016.04.27-18.03.48:493][172]LogSavePackage: Save=146.80ms
+[2016.04.27-18.03.48:493][172]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/HeroCharacter_Auto3E1EE11544BF517188836928F2694C2A0.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/Autosaves/Game/Blueprints/HeroCharacter_Auto3.uasset'
+[2016.04.27-18.03.48:495][172]LogSavePackage: Total save time: 155.33ms
+[2016.04.27-18.03.48:495][172]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Saved/Autosaves/Game/Blueprints/HeroCharacter_Auto3.uasset
+[2016.04.27-18.03.48:495][172]LogFileHelpers: Auto-saving content packages took 0.162
+[2016.04.27-23.14.34:946][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../GitHub/Unreal/TwinStickShooter/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.27-23.14.34:949][127]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.27-23.14.34:949][127]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-23.14.34:949][127]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.04.27-23.14.35:087][127]LogSavePackage: Save=67.76ms
+[2016.04.27-23.14.35:087][127]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/NewMap166094D54F45BDD62F9E3C8539D24FF9.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Content/NewMap.umap'
+[2016.04.27-23.14.35:090][127]LogSavePackage: Total save time: 84.46ms
+[2016.04.27-23.14.35:090][127]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Content/NewMap.umap
+[2016.04.27-23.14.39:508][136]LogSavePackage: Save=73.70ms
+[2016.04.27-23.14.39:508][136]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/SK_Mannequin047809B8489C50CA3F9FCCBB161A1DE6.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset'
+[2016.04.27-23.14.39:512][136]LogSavePackage: Total save time: 88.35ms
+[2016.04.27-23.14.39:512][136]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset
+[2016.04.27-23.14.39:548][136]LogSavePackage: Save=3.89ms
+[2016.04.27-23.14.39:548][136]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/UE4_Mannequin_SkeletonBBCDD8274524B891872635B4CD250CC4.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2016.04.27-23.14.39:551][136]LogSavePackage: Total save time: 14.14ms
+[2016.04.27-23.14.39:551][136]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Content/AnimationAssets/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2016.04.27-23.14.39:579][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HeroCharacter" FILE="../../../../../../GitHub/Unreal/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset" SILENT=true
+[2016.04.27-23.14.39:779][136]LogSavePackage: Save=189.94ms
+[2016.04.27-23.14.39:779][136]LogSavePackage: Moving '../../../../../../GitHub/Unreal/TwinStickShooter/Saved/HeroCharacter2BA6B7B24A841B417EB594ACB5F4702D.tmp' to '../../../../../../GitHub/Unreal/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset'
+[2016.04.27-23.14.39:782][136]LogSavePackage: Total save time: 201.47ms
+[2016.04.27-23.14.39:782][136]LogSavePackage:Display: Finished SavePackage ../../../../../../GitHub/Unreal/TwinStickShooter/Content/Blueprints/HeroCharacter.uasset
+[2016.04.27-23.14.40:703][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.27-23.14.40:806][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.27-23.14.41:387][137]Cmd: QUIT_EDITOR
+[2016.04.27-23.14.41:916][137]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2016.04.27-23.14.42:008][137]LogExit: Preparing to exit.
+[2016.04.27-23.14.43:176][137]LogExit: Editor shut down
+[2016.04.27-23.14.43:179][137]LogExit: Transaction tracking system shut down
+[2016.04.27-23.14.44:665][137]LogObj: Freed 0b from 0 cluster array pools.
+[2016.04.27-23.14.44:665][137]LogExit: Object subsystem successfully closed.
+[2016.04.27-23.14.44:767][137]LogD3D11RHI: Shutdown
+[2016.04.27-23.14.44:767][137]LogD3D11RHI: CleanupD3DDevice
+[2016.04.27-23.14.45:682][137]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.27-23.14.45:817][137]LogDerivedDataCache: Shutdown
+[2016.04.27-23.14.46:328][137]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (208)
+[2016.04.27-23.14.46:338][137]LogModuleManager: Shutting down and abandoning module BlueprintGraph (207)
+[2016.04.27-23.14.46:338][137]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (206)
+[2016.04.27-23.14.46:345][137]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (205)
+[2016.04.27-23.14.46:345][137]LogModuleManager: Shutting down and abandoning module CrashTracker (204)
+[2016.04.27-23.14.46:345][137]LogModuleManager: Shutting down and abandoning module SceneOutliner (203)
+[2016.04.27-23.14.46:354][137]LogModuleManager: Shutting down and abandoning module SuperSearch (202)
+[2016.04.27-23.14.46:354][137]LogModuleManager: Shutting down and abandoning module WidgetCarousel (201)
+[2016.04.27-23.14.46:354][137]LogModuleManager: Shutting down and abandoning module AddContentDialog (200)
+[2016.04.27-23.14.46:373][137]LogModuleManager: Shutting down and abandoning module GameplayTags (199)
+[2016.04.27-23.14.46:373][137]LogModuleManager: Shutting down and abandoning module EditorWidgets (198)
+[2016.04.27-23.14.46:373][137]LogModuleManager: Shutting down and abandoning module CollectionManager (197)
+[2016.04.27-23.14.46:390][137]LogModuleManager: Shutting down and abandoning module StatsViewer (196)
+[2016.04.27-23.14.46:437][137]LogModuleManager: Shutting down and abandoning module FoliageEdit (195)
+[2016.04.27-23.14.46:438][137]LogModuleManager: Shutting down and abandoning module LandscapeEditor (194)
+[2016.04.27-23.14.46:439][137]LogModuleManager: Shutting down and abandoning module ActorPickerMode (193)
+[2016.04.27-23.14.46:439][137]LogModuleManager: Shutting down and abandoning module GeometryMode (192)
+[2016.04.27-23.14.46:439][137]LogModuleManager: Shutting down and abandoning module TextureAlignMode (191)
+[2016.04.27-23.14.46:439][137]LogModuleManager: Shutting down and abandoning module BspMode (190)
+[2016.04.27-23.14.46:439][137]LogModuleManager: Shutting down and abandoning module PlacementMode (189)
+[2016.04.27-23.14.46:439][137]LogModuleManager: Shutting down and abandoning module AutomationWorker (188)
+[2016.04.27-23.14.46:439][137]LogModuleManager: Shutting down and abandoning module CharacterAI (187)
+[2016.04.27-23.14.46:439][137]LogModuleManager: Shutting down and abandoning module SmartSnapping (186)
+[2016.04.27-23.14.46:439][137]LogModuleManager: Shutting down and abandoning module ViewportSnapping (185)
+[2016.04.27-23.14.46:439][137]LogModuleManager: Shutting down and abandoning module LogVisualizer (184)
+[2016.04.27-23.14.46:440][137]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (183)
+[2016.04.27-23.14.46:459][137]LogModuleManager: Shutting down and abandoning module IntroTutorials (182)
+[2016.04.27-23.14.46:485][137]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (181)
+[2016.04.27-23.14.46:492][137]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (180)
+[2016.04.27-23.14.46:499][137]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (179)
+[2016.04.27-23.14.46:499][137]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (178)
+[2016.04.27-23.14.47:305][137]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (177)
+[2016.04.27-23.14.47:305][137]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (176)
+[2016.04.27-23.14.47:305][137]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (175)
+[2016.04.27-23.14.47:305][137]LogModuleManager: Shutting down and abandoning module MergeActors (174)
+[2016.04.27-23.14.47:330][137]LogModuleManager: Shutting down and abandoning module SizeMap (173)
+[2016.04.27-23.14.47:335][137]LogModuleManager: Shutting down and abandoning module TreeMap (172)
+[2016.04.27-23.14.47:335][137]LogModuleManager: Shutting down and abandoning module ReferenceViewer (171)
+[2016.04.27-23.14.47:335][137]LogModuleManager: Shutting down and abandoning module LocalizationService (170)
+[2016.04.27-23.14.47:354][137]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (169)
+[2016.04.27-23.14.47:366][137]LogModuleManager: Shutting down and abandoning module HardwareTargeting (168)
+[2016.04.27-23.14.47:384][137]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (167)
+[2016.04.27-23.14.47:390][137]LogModuleManager: Shutting down and abandoning module UndoHistory (166)
+[2016.04.27-23.14.47:391][137]LogModuleManager: Shutting down and abandoning module UserFeedback (165)
+[2016.04.27-23.14.47:391][137]LogModuleManager: Shutting down and abandoning module XmlParser (164)
+[2016.04.27-23.14.47:391][137]LogModuleManager: Shutting down and abandoning module Blutility (163)
+[2016.04.27-23.14.47:398][137]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (162)
+[2016.04.27-23.14.47:399][137]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (161)
+[2016.04.27-23.14.47:399][137]LogModuleManager: Shutting down and abandoning module InputBindingEditor (160)
+[2016.04.27-23.14.47:425][137]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (159)
+[2016.04.27-23.14.47:425][137]LogModuleManager: Shutting down and abandoning module SettingsEditor (158)
+[2016.04.27-23.14.47:435][137]LogModuleManager: Shutting down and abandoning module ProjectLauncher (157)
+[2016.04.27-23.14.47:451][137]LogModuleManager: Shutting down and abandoning module SessionFrontend (156)
+[2016.04.27-23.14.47:468][137]LogModuleManager: Shutting down and abandoning module ProfilerClient (155)
+[2016.04.27-23.14.47:485][137]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (154)
+[2016.04.27-23.14.47:494][137]LogModuleManager: Shutting down and abandoning module DeviceManager (153)
+[2016.04.27-23.14.47:542][137]LogModuleManager: Shutting down and abandoning module AutomationController (152)
+[2016.04.27-23.14.47:554][137]LogModuleManager: Shutting down and abandoning module AutomationWindow (151)
+[2016.04.27-23.14.47:580][137]LogModuleManager: Shutting down and abandoning module Layers (150)
+[2016.04.27-23.14.47:598][137]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (149)
+[2016.04.27-23.14.47:598][137]LogModuleManager: Shutting down and abandoning module DetailCustomizations (148)
+[2016.04.27-23.14.47:612][137]LogModuleManager: Shutting down and abandoning module PackagesDialog (147)
+[2016.04.27-23.14.47:612][137]LogModuleManager: Shutting down and abandoning module Persona (146)
+[2016.04.27-23.14.47:618][137]LogModuleManager: Shutting down and abandoning module Kismet (145)
+[2016.04.27-23.14.47:623][137]LogModuleManager: Shutting down and abandoning module GraphEditor (144)
+[2016.04.27-23.14.47:623][137]LogModuleManager: Shutting down and abandoning module ClassViewer (143)
+[2016.04.27-23.14.47:625][137]LogModuleManager: Shutting down and abandoning module Toolbox (142)
+[2016.04.27-23.14.47:637][137]LogModuleManager: Shutting down and abandoning module ModuleUI (141)
+[2016.04.27-23.14.47:645][137]LogModuleManager: Shutting down and abandoning module MovieSceneTools (140)
+[2016.04.27-23.14.47:657][137]LogModuleManager: Shutting down and abandoning module OutputLog (139)
+[2016.04.27-23.14.47:666][137]LogModuleManager: Shutting down and abandoning module GammaUI (138)
+[2016.04.27-23.14.47:702][137]LogModuleManager: Shutting down and abandoning module Documentation (137)
+[2016.04.27-23.14.47:702][137]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (136)
+[2016.04.27-23.14.47:702][137]LogModuleManager: Shutting down and abandoning module AnalyticsET (135)
+[2016.04.27-23.14.47:702][137]LogModuleManager: Shutting down and abandoning module Analytics (134)
+[2016.04.27-23.14.47:702][137]LogModuleManager: Shutting down and abandoning module PortalServices (133)
+[2016.04.27-23.14.47:702][137]LogModuleManager: Shutting down and abandoning module PortalRpc (132)
+[2016.04.27-23.14.47:702][137]LogModuleManager: Shutting down and abandoning module MessagingRpc (131)
+[2016.04.27-23.14.47:702][137]LogModuleManager: Shutting down and abandoning module AITestSuite (130)
+[2016.04.27-23.14.47:706][137]LogModuleManager: Shutting down and abandoning module GameplayDebugger (129)
+[2016.04.27-23.14.47:711][137]LogModuleManager: Shutting down and abandoning module AIModule (128)
+[2016.04.27-23.14.47:711][137]LogModuleManager: Shutting down and abandoning module ProfilerService (127)
+[2016.04.27-23.14.47:847][137]LogModuleManager: Shutting down and abandoning module TaskGraph (126)
+[2016.04.27-23.14.47:855][137]LogModuleManager: Shutting down and abandoning module SlateRemote (125)
+[2016.04.27-23.14.47:855][137]LogModuleManager: Shutting down and abandoning module SteamVRController (124)
+[2016.04.27-23.14.47:855][137]LogModuleManager: Shutting down and abandoning module SteamVR (123)
+[2016.04.27-23.14.47:855][137]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (122)
+[2016.04.27-23.14.47:861][137]LogModuleManager: Shutting down and abandoning module OculusLibrary (121)
+[2016.04.27-23.14.47:861][137]LogModuleManager: Shutting down and abandoning module OculusInput (120)
+[2016.04.27-23.14.47:861][137]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (119)
+[2016.04.27-23.14.47:861][137]LogModuleManager: Shutting down and abandoning module CableComponent (118)
+[2016.04.27-23.14.47:861][137]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (117)
+[2016.04.27-23.14.47:861][137]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (116)
+[2016.04.27-23.14.47:879][137]LogModuleManager: Shutting down and abandoning module HTML5Networking (115)
+[2016.04.27-23.14.47:880][137]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.04.27-23.14.47:880][137]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.04.27-23.14.47:892][137]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.04.27-23.14.47:903][137]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.04.27-23.14.47:922][137]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.04.27-23.14.47:934][137]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.04.27-23.14.47:934][137]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.04.27-23.14.47:944][137]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.04.27-23.14.47:955][137]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.04.27-23.14.47:966][137]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.04.27-23.14.47:974][137]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.04.27-23.14.47:974][137]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.04.27-23.14.47:977][137]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.04.27-23.14.47:977][137]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.04.27-23.14.47:983][137]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2016.04.27-23.14.47:993][137]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2016.04.27-23.14.47:993][137]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2016.04.27-23.14.47:995][137]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (97)
+[2016.04.27-23.14.48:003][137]LogModuleManager: Shutting down and abandoning module AssetRegistry (96)
+[2016.04.27-23.14.48:136][137]LogModuleManager: Shutting down and abandoning module ContentBrowser (95)
+[2016.04.27-23.14.48:141][137]LogModuleManager: Shutting down and abandoning module Paper2DEditor (94)
+[2016.04.27-23.14.48:169][137]LogModuleManager: Shutting down and abandoning module TwinStickShooter (93)
+[2016.04.27-23.14.48:169][137]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.04.27-23.14.48:270][137]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.04.27-23.14.48:270][137]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.04.27-23.14.48:283][137]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.04.27-23.14.48:288][137]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.04.27-23.14.48:288][137]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.04.27-23.14.48:294][137]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.04.27-23.14.48:294][137]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.04.27-23.14.48:294][137]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.04.27-23.14.48:294][137]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.04.27-23.14.48:294][137]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.04.27-23.14.48:294][137]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.04.27-23.14.48:294][137]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.04.27-23.14.48:311][137]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.04.27-23.14.48:311][137]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.04.27-23.14.48:317][137]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.04.27-23.14.48:317][137]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.04.27-23.14.48:317][137]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.04.27-23.14.48:336][137]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.04.27-23.14.48:353][137]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.04.27-23.14.48:379][137]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.04.27-23.14.48:413][137]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.04.27-23.14.48:441][137]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.04.27-23.14.48:441][137]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.04.27-23.14.48:444][137]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.04.27-23.14.48:444][137]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.04.27-23.14.48:444][137]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.04.27-23.14.48:444][137]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.04.27-23.14.48:444][137]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.04.27-23.14.48:444][137]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.04.27-23.14.48:444][137]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.04.27-23.14.48:445][137]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.04.27-23.14.48:445][137]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.04.27-23.14.48:458][137]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.04.27-23.14.48:458][137]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.04.27-23.14.48:458][137]LogDerivedDataCache: Shutdown
+[2016.04.27-23.14.48:458][137]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.04.27-23.14.48:479][137]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.04.27-23.14.48:479][137]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.04.27-23.14.48:490][137]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.04.27-23.14.48:490][137]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.04.27-23.14.48:490][137]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.04.27-23.14.48:490][137]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.04.27-23.14.48:490][137]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.04.27-23.14.48:490][137]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.04.27-23.14.48:490][137]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.04.27-23.14.48:490][137]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.04.27-23.14.48:497][137]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.04.27-23.14.48:498][137]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.04.27-23.14.48:498][137]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.04.27-23.14.48:498][137]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.04.27-23.14.48:498][137]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.04.27-23.14.48:498][137]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.04.27-23.14.48:498][137]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.27-23.14.48:498][137]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.27-23.14.48:498][137]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.27-23.14.48:498][137]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.27-23.14.48:498][137]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.27-23.14.48:509][137]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.27-23.14.48:509][137]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.27-23.14.48:509][137]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.27-23.14.48:509][137]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.27-23.14.48:509][137]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.27-23.14.48:509][137]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.27-23.14.48:509][137]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.27-23.14.48:509][137]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.27-23.14.48:509][137]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.27-23.14.48:509][137]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.27-23.14.48:509][137]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.27-23.14.48:509][137]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.27-23.14.48:509][137]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.27-23.14.48:509][137]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.27-23.14.48:509][137]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.27-23.14.48:510][137]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.27-23.14.51:513][137]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.27-23.14.51:534][137]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.27-23.14.51:556][137]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.27-23.14.51:556][137]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.27-23.14.51:556][137]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.27-23.14.51:556][137]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.27-23.14.51:556][137]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.27-23.14.51:594][137]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.27-23.14.51:609][137]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.27-23.14.51:609][137]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.27-23.14.51:609][137]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.27-23.14.51:609][137]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.27-23.14.51:609][137]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.27-23.14.51:609][137]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.27-23.14.51:635][137]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.27-23.14.51:635][137]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.27-23.14.51:640][137]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.27-23.14.51:664][137]LogExit: Exiting.
+[2016.04.27-23.14.51:707][137]Log file closed, 04/28/16 07:14:51
